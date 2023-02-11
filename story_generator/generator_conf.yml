@@ -9,3 +9,16 @@ themes:
   - oppressive regime
   - what it means to be human
   - something unexpected
+  - a secret agent tracking down a smuggler
+
+# full sentences we can add to influence the story
+# TODO: fix the stupid hack where we add the empty string many times
+extra_details:
+  - ''
+  - ''
+  - ''
+  - ''
+  - Should have a very bleak ending
+  - A spy should interact with our main character
+  - Our main character should be named Veronica
+  - There should be a man named Karl making everything difficult for our main characters
