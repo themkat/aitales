@@ -1,0 +1,38 @@
+name: Build container image for backend
+
+on:
+  push:
+    paths:
+      - "story_generator/**"
+  pull_request:
+    paths:
+      - "story_generator/**"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          default: true
+          profile: minimal
+          components: clippy, rustfmt
+      - name: Check formatting
+        working-directory: /story_generator
+        run: |
+          cargo fmt -- --check
+      - name: Run clippy to check for possible errors
+        run: |
+          cargo clippy
+      # TODO: run tests
+
+      # TODO: build docker container
+
+      # - name: Build and push Docker image
+      #   uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+      #   working-directory: /story_generator
+      #   with:
+      #     context: .
+      #     push: true
