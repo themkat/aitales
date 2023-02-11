@@ -1,4 +1,4 @@
-Content:
+Content and minor modifications:
 Copyright (c) 2023 themkat.net
 
 

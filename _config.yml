@@ -5,10 +5,9 @@ description: "Tales from the deep mind"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: "/aitales"
-url: ""
+url: "https://themkat.net"
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
 
@@ -16,11 +15,10 @@ permalink: /:title/
 authors:
   john:
     name: John
-    display_name: John    
+    display_name: John
     avatar: 'assets/images/avatar.png'
     email: wowthemesnet@gmail.com
     web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
     description: "The first generation of the story generator algorithm! Helped and moderated by themkat to make things work better."
 
 # Plugins
