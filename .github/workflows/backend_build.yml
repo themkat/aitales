@@ -20,18 +20,23 @@ jobs:
           profile: minimal
           components: clippy, rustfmt
       - name: Check formatting
-        working-directory: /story_generator
+        working-directory: story_generator
         run: |
           cargo fmt -- --check
       - name: Run clippy to check for possible errors
+        working-directory: story_generator
         run: |
           cargo clippy
-      # TODO: run tests
+      - name: Run tests
+        working-directory: story_generator
+        run: |
+          cargo test
 
       # TODO: build docker container
-
+      # TODO: should we run the tests and similar inside docker build as well?
       # - name: Build and push Docker image
       #   uses: docker/build-push-action@ad44023a93711e3deb337508980b4b5e9bcdc5dc
+      #  TODO: add if main to it.
       #   working-directory: /story_generator
       #   with:
       #     context: .
