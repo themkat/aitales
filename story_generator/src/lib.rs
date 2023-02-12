@@ -52,6 +52,11 @@ impl GeneratorApp {
 
         // TODO: handle async better
 
+        // some printing because openai api sometimes behaved weird...
+        println!("genre: {}", &selected_genre);
+        println!("theme: {}", &selected_theme);
+        println!("detail: {}", &selected_detail);
+
         // generation of our text, title and cover image
         let story_text =
             openai::do_completion_request(&self.token, &create_story_prompt_string(&story_details))
@@ -79,15 +84,22 @@ impl GeneratorApp {
         let mut story_image_url_file = File::create("story_image_url.txt")
             .await
             .expect("Could not create image url file!");
+        let mut story_genre_file = File::create("story_genre.txt")
+            .await
+            .expect("Could not create genre file!");
 
-        let (w1, w2, w3) = join!(
+        // TODO: should probably export the genre(s) selected to a file as well. That way we can use them when generating md files
+
+        let (w1, w2, w3, w4) = join!(
             story_text_file.write_all(story_text.as_bytes()),
             story_title_file.write_all(story_title.as_bytes()),
-            story_image_url_file.write_all(story_image_url.as_bytes())
+            story_image_url_file.write_all(story_image_url.as_bytes()),
+            story_genre_file.write_all(selected_genre.as_bytes())
         );
         w1.expect("Coult not write file!");
         w2.expect("Coult not write file!");
         w3.expect("Coult not write file!");
+        w4.expect("Coult not write file!");
     }
 }
 
