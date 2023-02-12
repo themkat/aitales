@@ -24,8 +24,11 @@ jobs:
         run: |
           /story_generator
       - uses: actions/checkout@v3
+        with:
+          path: /repo
       - name: Transform stories to jekylls markdown format
         id: transform
+        working-directory: /repo
         env:
           TITLE_FILE: /story_title.txt
           IMAGE_URL_FILE: /story_image_url.txt
@@ -40,6 +43,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
+          path: /repo
           add-paths: ${{ steps.transform.outputs.postfile }},${{ steps.transform.outputs.postfile }}
           commit-message: "New story: ${{ steps.transform.outputs.title }}"
           title: "New story: ${{ steps.transform.outputs.title }}"
