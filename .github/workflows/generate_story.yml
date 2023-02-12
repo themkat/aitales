@@ -44,7 +44,7 @@ jobs:
           git checkout -b $BRANCH_NAME
           git add _posts/$GEN_FILENAME.md
           git add assets/images/$GEN_FILENAME.png
-          git push --set-upstream origin story-2023-02-12_19-00
+          git push --set-upstream origin $BRANCH_NAME
       - name: Create Pull Request
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

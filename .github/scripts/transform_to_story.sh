@@ -16,18 +16,15 @@ cat .github/scripts/template.md > _posts/$BLOGPOST_FILENAME
 # populate the correct title
 cat _posts/$BLOGPOST_FILENAME | sed "s/###TITLE_HERE###/$PROCESSED_TITLE/" > TMP_FILE.md
 mv TMP_FILE.md _posts/$BLOGPOST_FILENAME
-rm TMP_FILE.md
 
 # populate the correct category
 CATEGORIES_LIST=$(cat $CATEGORY_FILE | tr -d '\n')
 cat _posts/$BLOGPOST_FILENAME | sed "s/###CATEGORIES###/$CATEGORIES_LIST/" > TMP_FILE.md
 mv TMP_FILE.md _posts/$BLOGPOST_FILENAME
-rm TMP_FILE.md
 
 # populate the correct image filename
 cat _posts/$BLOGPOST_FILENAME | sed "s/###IMAGE_FILENAME###/$IMAGE_FILENAME/" > TMP_FILE.md
 mv TMP_FILE.md _posts/$BLOGPOST_FILENAME
-rm TMP_FILE.md
 
 # add the generated text
 cat $TEXT_FILE >> _posts/$BLOGPOST_FILENAME
