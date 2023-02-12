@@ -13,12 +13,9 @@ permalink: /:title/
 
 # Authors
 authors:
-  john:
-    name: John
-    display_name: John
-    avatar: 'assets/images/avatar.png'
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
+  lily:
+    name: Lily Literary
+    display_name: Lily Literary
     description: "The first generation of the story generator algorithm! Helped and moderated by themkat to make things work better."
 
 # Plugins
