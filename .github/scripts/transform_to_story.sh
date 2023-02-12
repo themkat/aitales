@@ -2,7 +2,7 @@
 
 # title without any quotes etc.
 PROCESSED_TITLE=$(cat $TITLE_FILE | tr -d '\n' | tr -d '\"')
-MAIN_FILE_TITLE=$(date '+%Y-%m-%d')-$(echo "$PROCESSED_TITLE" | tr ' ' '_' | tr -d ':')
+MAIN_FILE_TITLE=$(date '+%Y-%m-%d')-$(echo "$PROCESSED_TITLE" | tr ' ' '_' | tr -d ':' | tr -d "'")
 BLOGPOST_FILENAME=$MAIN_FILE_TITLE.md
 IMAGE_FILENAME=$MAIN_FILE_TITLE.png
 
