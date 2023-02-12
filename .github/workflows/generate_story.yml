@@ -17,5 +17,7 @@ jobs:
         username: themkat
         password: ${{  secrets.GITHUB_TOKEN }}
     steps:
-      - run: |
+      - name: generate story
+        working-directory: /
+        run: |
           /story_generator
