@@ -5,5 +5,6 @@ RUN apt-get update && apt-get install -y libssl-dev pkg-config && \
 
 FROM debian:bullseye-slim
 COPY --from=build /work/target/release/story_generator /story_generator
+ADD generator_conf.yml /generator_conf.yml
 
 ENTRYPOINT /bin/sh
