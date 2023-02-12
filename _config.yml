@@ -4,8 +4,8 @@ title: "AI Tales"
 description: "Tales from the deep mind"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: "/aitales"
-url: "https://themkat.net"
+baseurl: ""
+url: "https://aitales.themkat.net"
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
 include: ["_pages"]
