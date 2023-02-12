@@ -10,6 +10,7 @@ IMAGE_FILENAME=$MAIN_FILE_TITLE.png
 wget -O assets/images/$IMAGE_FILENAME $(cat $IMAGE_URL_FILE | tr -d '\n')
 
 # populate the new file with the template settings
+touch _posts/$BLOGPOST_FILENAME
 cat .github/scripts/template.md > _posts/$BLOGPOST_FILENAME
 
 # populate the correct title
