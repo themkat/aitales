@@ -9,6 +9,6 @@ COPY --from=build /work/target/release/story_generator /story_generator
 ADD generator_conf.yml /generator_conf.yml
 
 # needs updated certificates
-RUN apt-get update && apt-get install -y ca-certificates && apt-get clean
+RUN apt-get update && apt-get install -y ca-certificates wget && apt-get clean
 
 ENTRYPOINT /bin/sh
