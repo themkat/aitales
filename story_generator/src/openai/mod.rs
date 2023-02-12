@@ -1,3 +1,5 @@
+use std::time::Duration;
+
 use rand::Rng;
 use serde::{Deserialize, Serialize};
 
@@ -24,7 +26,10 @@ pub async fn do_completion_request(
     api_token: &String,
     prompt: &String,
 ) -> Result<String, reqwest::Error> {
-    let client = reqwest::Client::new();
+    let client = reqwest::Client::builder()
+        .timeout(Duration::from_secs(720))
+        .build()
+        .expect("Could not create http client");
     let request = OpenAiCompletionRequest {
         model: "text-davinci-003".to_string(),
         prompt: prompt.to_string(),
@@ -74,7 +79,10 @@ pub async fn do_image_generation_request(
     api_token: &String,
     prompt: &String,
 ) -> Result<String, reqwest::Error> {
-    let client = reqwest::Client::new();
+    let client = reqwest::Client::builder()
+        .timeout(Duration::from_secs(720))
+        .build()
+        .expect("Could not create http client");
     let request = OpenAiImageGenerationRequest {
         prompt: prompt.to_string(),
         size: "1024x1024".to_string(),
