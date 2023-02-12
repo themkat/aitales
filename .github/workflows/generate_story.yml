@@ -19,5 +19,7 @@ jobs:
     steps:
       - name: generate story
         working-directory: /
+        env:
+          RUST_BACKTRACE: 1
         run: |
           /story_generator
