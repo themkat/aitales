@@ -12,7 +12,7 @@ jobs:
   generate-story:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/themkat/aitales_story_generator:1e04d0de6bc65713437af4b32007951e00754a38
+      image: ghcr.io/themkat/aitales_story_generator:f343690fa2feaf50f89cc70d0672aff31d03a11d
       credentials:
         username: themkat
         password: ${{  secrets.GITHUB_TOKEN }}
@@ -24,6 +24,10 @@ jobs:
         run: |
           /story_generator
       - uses: actions/checkout@v3
+      - name: Configure git
+        run: |
+          git config --global user.name 'actions (automatic)'
+          git config --global user.email 'action@github.com'
       - name: Transform stories to jekylls markdown format
         id: transform
         env:
@@ -32,19 +36,18 @@ jobs:
           TEXT_FILE: /story_text.txt
           CATEGORY_FILE: /story_genre.txt
         run: |
-          git config --global --add safe.directory $GITHUB_WORKSPACE
-          git fetch --all
           GEN_FILENAME=$(./.github/scripts/transform_to_story.sh)
-          echo "postfile=_posts/$GEN_FILENAME.md" >> $GITHUB_OUTPUT
-          echo "imagefile=assets/images/$GEN_FILENAME.png" >> $GITHUB_OUTPUT
           echo "title=$(cat $TITLE_FILE | tr -d '\n' | tr -d '\"')"
-          echo "branchname=story-$(date '+%Y-%m-%d_%H-%M')" >> $GITHUB_OUTPUT
+          BRANCH_NAME=story-$(date '+%Y-%m-%d_%H-%M')
+          echo "branchname=$BRANCH_NAME" >> $GITHUB_OUTPUT
+          git checkout -b $BRANCH_NAME
+          git add _posts/$GEN_FILENAME.md
+          git add assets/images/$GEN_FILENAME.png
+          git push
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v5-beta
-        with:
-          add-paths: ${{ steps.transform.outputs.postfile }},${{ steps.transform.outputs.imagefile }}
-          commit-message: "New story: ${{ steps.transform.outputs.title }}"
-          title: "New story: ${{ steps.transform.outputs.title }}"
-          body: "New story! pls review me"
-          branch: ${{ steps.transform.outputs.branchname }}
-          reviewers: themkat
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+        run: |
+          gh pr create --title "New story: ${{ steps.transform.outputs.title }}" --body "New story! pls review me"
