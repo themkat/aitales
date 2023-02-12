@@ -42,5 +42,5 @@ jobs:
         if: github.ref == 'refs/heads/main'
         working-directory: story_generator
         run: |
-          docker build -t ghcr.io/themkat/aitales/story_backend:$GITHUB_SHA -t ghcr.io/themkat/aitales/story_backend:latest .
-          docker push --all-tags ghcr.io/themkat/aitales/story_backend:latest
+          docker build -t ghcr.io/themkat/aitales/story_backend:$GITHUB_SHA .
+          docker push ghcr.io/themkat/aitales/story_backend:$GITHUB_SHA
