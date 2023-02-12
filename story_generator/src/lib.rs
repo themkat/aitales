@@ -1,5 +1,8 @@
+mod openai;
+
 use rand::Rng;
 use serde::{Deserialize, Serialize};
+use tokio::{fs::File, io::AsyncWriteExt, join};
 
 // helper objects to avoid having to fiddle with strings
 struct StoryDetails {
@@ -47,87 +50,77 @@ impl GeneratorApp {
             extra_detail: selected_detail.to_string(),
         };
 
-        // basic algorithm:
-        // - fetch a story based upon parameters.
-        // - fetch a descriptive image
-        // - fetch a descriptive title somehow
+        // TODO: handle async better
 
-        // TODO: what should be returned here? should we write to file?
-        // separate export options struct for these settings?
+        // generation of our text, title and cover image
+        let story_text =
+            openai::do_completion_request(&self.token, &create_story_prompt_string(&story_details))
+                .await
+                .expect("no story...");
+        let story_title =
+            openai::do_completion_request(&self.token, &create_title_prompt(&story_details))
+                .await
+                .expect("no title...");
+        let story_image_url = openai::do_image_generation_request(
+            &self.token,
+            &create_image_generation_prompt(&story_details),
+        )
+        .await
+        .expect("no image fetched...");
 
-        let story_text = fetch_story(&self.token, &story_details)
+        // write the results to file so the user (github actions) can use the data
+        // TODO: maybe have these as arguments?
+        let mut story_text_file = File::create("story_text.txt")
             .await
-            .expect("no story...");
+            .expect("Could not create story text file!");
+        let mut story_title_file = File::create("story_title.txt")
+            .await
+            .expect("Could not create story title file!");
+        let mut story_image_url_file = File::create("story_image_url.txt")
+            .await
+            .expect("Could not create image url file!");
 
-        println!("Text: {}", story_text)
+        let (w1, w2, w3) = join!(
+            story_text_file.write_all(story_text.as_bytes()),
+            story_title_file.write_all(story_title.as_bytes()),
+            story_image_url_file.write_all(story_image_url.as_bytes())
+        );
+        w1.expect("Coult not write file!");
+        w2.expect("Coult not write file!");
+        w3.expect("Coult not write file!");
     }
 }
 
-#[derive(Debug, Serialize, Deserialize)]
-struct OpenAiCompletionRequest {
-    model: String,
-    prompt: String,
-    temperature: f32,
-    max_tokens: i16,
-    // other fields?
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-struct OpenAiCompletionResponse {
-    // TODO: do we need the other fields?
-    choices: Vec<OpenAiCompletionChoice>,
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-struct OpenAiCompletionChoice {
-    text: String,
-}
-
-// TODO: should we have this as a separate function or inside generator?
-async fn fetch_story(
-    api_token: &String,
-    story_details: &StoryDetails,
-) -> Result<String, reqwest::Error> {
-    let client = reqwest::Client::new();
-    let request = OpenAiCompletionRequest {
-        model: "text-davinci-003".to_string(),
-        prompt: create_prompt_string(story_details),
-        temperature: (rand::thread_rng().gen_range(0..9) as f32) / 10.0,
-        max_tokens: 3500,
-    };
-
-    let result = client
-        .post("https://api.openai.com/v1/completions")
-        .header("Authorization", format!("Bearer {}", api_token))
-        .header("Content-Type", "application/json")
-        .body(serde_json::to_string(&request).expect("Could not write json to string"))
-        .send()
-        .await?
-        .json::<OpenAiCompletionResponse>()
-        .await?;
-
-    Ok(result
-        .choices
-        .first()
-        .expect("OpenAPI completion API returned no text!")
-        .text
-        .clone())
-}
-
-// TODO: separate methods outside for generating story query etc?
-fn create_prompt_string(story_details: &StoryDetails) -> String {
+fn create_story_prompt_string(story_details: &StoryDetails) -> String {
     format!(
-        "Write a page long {} about {}. {}",
+        "Write a {} page long story about {}. {}",
         story_details.genre, story_details.theme, story_details.extra_detail
+    )
+}
+
+fn create_title_prompt(story_details: &StoryDetails) -> String {
+    format!(
+        "Suggest a title for a {} about {}",
+        story_details.genre, story_details.theme
+    )
+}
+
+fn create_image_generation_prompt(story_details: &StoryDetails) -> String {
+    format!(
+        "{} in the style of {}",
+        story_details.theme, story_details.genre
     )
 }
 
 #[cfg(test)]
 mod tests {
-    use crate::{create_prompt_string, StoryDetails};
+    use crate::{
+        create_image_generation_prompt, create_story_prompt_string, create_title_prompt,
+        StoryDetails,
+    };
 
     #[test]
-    fn test_create_prompt_string() {
+    fn test_create_story_prompt_string() {
         let story_details = vec![
             StoryDetails {
                 genre: "thriller".to_string(),
@@ -147,14 +140,82 @@ mod tests {
         ];
 
         let expected_prompts = vec![
-            "Write a thriller about a secret agent tracking down a smuggler. ",
-            "Write a drama about someone inheriting wealth. People should smile",
-            "Write a diddly doo about doodely diddely. Okayley dokeley",
+            "Write a thriller page long story about a secret agent tracking down a smuggler. ",
+            "Write a drama page long story about someone inheriting wealth. People should smile",
+            "Write a diddly doo page long story about doodely diddely. Okayley dokeley",
         ];
 
         let results: Vec<String> = story_details
             .iter()
-            .map(|elem| create_prompt_string(elem))
+            .map(|elem| create_story_prompt_string(elem))
+            .collect();
+
+        assert_eq!(results, expected_prompts);
+    }
+
+    #[test]
+    fn test_create_title_prompt() {
+        let story_details = vec![
+            StoryDetails {
+                genre: "comedy".to_string(),
+                theme: "a guy".to_string(),
+                extra_detail: String::new(),
+            },
+            StoryDetails {
+                genre: "drama".to_string(),
+                theme: "family conflicts".to_string(),
+                extra_detail: "plsdontincludeme".to_string(),
+            },
+            StoryDetails {
+                genre: "diddly doo".to_string(),
+                theme: "doodely diddely".to_string(),
+                extra_detail: "Okayley dokeley".to_string(),
+            },
+        ];
+
+        let expected_prompts = vec![
+            "Suggest a title for a comedy about a guy",
+            "Suggest a title for a drama about family conflicts",
+            "Suggest a title for a diddly doo about doodely diddely",
+        ];
+
+        let results: Vec<String> = story_details
+            .iter()
+            .map(|elem| create_title_prompt(elem))
+            .collect();
+
+        assert_eq!(results, expected_prompts);
+    }
+
+    #[test]
+    fn test_create_image_generation_prompt() {
+        let story_details = vec![
+            StoryDetails {
+                genre: "thriller".to_string(),
+                theme: "a secret agent tracking down a smuggler".to_string(),
+                extra_detail: String::new(),
+            },
+            StoryDetails {
+                genre: "drama".to_string(),
+                theme: "someone inheriting wealth".to_string(),
+                extra_detail: "People should smile".to_string(),
+            },
+            StoryDetails {
+                genre: "diddly doo".to_string(),
+                theme: "doodely diddely".to_string(),
+                extra_detail: "Okayley dokeley".to_string(),
+            },
+        ];
+
+        let expected_prompts = vec![
+            "a secret agent tracking down a smuggler in the style of thriller",
+            "someone inheriting wealth in the style of drama",
+            "doodely diddely in the style of diddly doo",
+        ];
+
+        let results: Vec<String> = story_details
+            .iter()
+            .map(|elem| create_image_generation_prompt(elem))
             .collect();
 
         assert_eq!(results, expected_prompts);
