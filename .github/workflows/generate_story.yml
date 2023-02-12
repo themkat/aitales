@@ -1,0 +1,22 @@
+name: Generate story
+
+on:
+  # schedule:
+  #   - cron: "0 0 * * 1,3,5"
+  workflow_dispatch:
+
+env:
+  OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
+
+jobs:
+  generate-story:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: docker/login-action@v1
+        with:
+          registry: ghcr.io
+          username: themkat
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - uses: docker://ghcr.io/themkat/aitales_story_generator:b59a9b955c0eb8d653fbf34bf4d6a41d0dc818bd
+        run: |
+          ./story_generator
