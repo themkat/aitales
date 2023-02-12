@@ -1,8 +1,8 @@
 name: Generate story
 
 on:
-  # schedule:
-  #   - cron: "0 0 * * 1,3,5"
+  schedule:
+    - cron: "0 0 * * 1,4"
   workflow_dispatch:
 
 env:
