@@ -11,12 +11,7 @@ env:
 jobs:
   generate-story:
     runs-on: ubuntu-latest
+    container: ghcr.io/themkat/aitales_story_generator:b59a9b955c0eb8d653fbf34bf4d6a41d0dc818bd
     steps:
-      - uses: docker/login-action@v1
-        with:
-          registry: ghcr.io
-          username: themkat
-          password: ${{ secrets.GITHUB_TOKEN }}
-      - uses: docker://ghcr.io/themkat/aitales_story_generator:b59a9b955c0eb8d653fbf34bf4d6a41d0dc818bd
-        run: |
+      - run: |
           ./story_generator
