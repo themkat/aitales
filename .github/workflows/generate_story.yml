@@ -34,13 +34,14 @@ jobs:
         run: |
           GEN_FILENAME=$(./.github/scripts/transform_to_story.sh)
           echo "postfile=_posts/$GEN_FILENAME.md" >> $GITHUB_OUTPUT
-          echo "imagefile=assets/images/$GEN_FILENAME.md" >> $GITHUB_OUTPUT
+          echo "imagefile=assets/images/$GEN_FILENAME.png" >> $GITHUB_OUTPUT
           echo "title=$(cat $TITLE_FILE | tr -d '\n' | tr -d '\"')"
           echo "branchname=story-$(date '+%Y-%m-%d_%H-%M')" >> $GITHUB_OUTPUT
+          git fetch --all
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5-beta
         with:
-          add-paths: ${{ steps.transform.outputs.postfile }},${{ steps.transform.outputs.postfile }}
+          add-paths: ${{ steps.transform.outputs.postfile }},${{ steps.transform.outputs.imagefile }}
           commit-message: "New story: ${{ steps.transform.outputs.title }}"
           title: "New story: ${{ steps.transform.outputs.title }}"
           body: "New story! pls review me"
