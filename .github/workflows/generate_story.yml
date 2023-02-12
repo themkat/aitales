@@ -38,12 +38,14 @@ jobs:
           CATEGORY_FILE: /story_genre.txt
         run: |
           GEN_FILENAME=$(./.github/scripts/transform_to_story.sh)
-          echo "title=$(cat $TITLE_FILE | tr -d '\n' | tr -d '\"')"
+          TITLE=$(cat $TITLE_FILE | tr -d '\n' | tr -d '\"')
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
           BRANCH_NAME=story-$(date '+%Y-%m-%d_%H-%M')
           echo "branchname=$BRANCH_NAME" >> $GITHUB_OUTPUT
           git checkout -b $BRANCH_NAME
           git add _posts/$GEN_FILENAME.md
           git add assets/images/$GEN_FILENAME.png
+          git commit -m "New story: $TITLE"
           git push --set-upstream origin $BRANCH_NAME
       - name: Create Pull Request
         env:
