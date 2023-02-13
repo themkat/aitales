@@ -3,6 +3,13 @@ genres:
   - science fiction
   - fantasy
   - crime
+  - horror
+  - action
+  - comedy
+  - drama
+  - folklore
+  - western
+  - young adult
 
 themes:
   - love
@@ -10,13 +17,24 @@ themes:
   - what it means to be human
   - something unexpected
   - a secret agent tracking down a smuggler
+  - things are not what they seem
+  - many characters working together and forming bonds
+  - unlikely allies coming together
+  - betrayal
+  - friendship
 
 # full sentences we can add to influence the story
 # TODO: fix the stupid hack where we add the empty string many times
 extra_details:
   - ''
   - ''
+  - ''
+  - ''
   - Should have a very bleak ending
   - A spy should interact with our main character
   - Our main character should be named Veronica
+  - Out main character should be named Hans
+  - Should contain a misunderstood character
   - There should be a man named Karl making everything difficult for our main characters
+  - No one is safe
+  - Should have positive vibes
