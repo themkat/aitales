@@ -22,11 +22,12 @@ themes:
   - unlikely allies coming together
   - betrayal
   - friendship
+  - the macabre
+  - ghosts or spirits
 
 # full sentences we can add to influence the story
 # TODO: fix the stupid hack where we add the empty string many times
 extra_details:
-  - ''
   - ''
   - ''
   - ''
@@ -38,3 +39,4 @@ extra_details:
   - There should be a man named Karl making everything difficult for our main characters
   - No one is safe
   - Should have positive vibes
+  - Should have 3 main characters
