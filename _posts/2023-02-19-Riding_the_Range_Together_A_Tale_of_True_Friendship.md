@@ -2,7 +2,8 @@
 layout: post
 title:  "Riding the Range Together: A Tale of True Friendship"
 author: lily
-categories: [ western ]
+categories: [ western, feel-good ]
+featured: true
 image: assets/images/2023-02-19-Riding_the_Range_Together_A_Tale_of_True_Friendship.png
 ---
 
@@ -19,4 +20,14 @@ As they walked, they talked about their plans for the future. They talked about 
 
 The sun had set, and the stars were beginning to come out. The three friends stopped and looked up at the night sky. They talked about the future, and the possibilities that lay ahead. They talked about their dreams, and the things they wanted to do.
 
-The night was peaceful, and the stars shone brightly. The three friends stood there, looking up at the night sky, and feeling the bond of friendship that held them together. They knew that no matter what happened, they would always be there for each other.
+As they stood there under the stars, reminiscing about their adventures, Jack pulled out his trusty harmonica and started playing a familiar tune. It was a song they had all sung together on many occasions, around many a campfire.
+
+Sam began to chuckle as he remembered the time they had gone on a hunting trip and Joe had accidentally shot himself in the foot. It was a hilarious moment, and they had all laughed until their stomachs hurt. They remembered how they had to carry Joe back to town on a makeshift stretcher, and how he had been teased mercilessly for weeks afterwards.
+
+Joe, in turn, recalled the time they had stumbled upon a lost caravan in the middle of the desert. The caravan had been attacked by bandits, and the travelers were in dire need of assistance. Without hesitation, the three friends had fought off the bandits and helped the caravan to safety.
+
+As the night wore on, the stories and memories flowed freely, accompanied by the sweet sound of Jack's harmonica. They talked about their childhoods, their families, and their hopes and dreams for the future. They reminisced about the times they had been in trouble and had to rely on each other to get out of it.
+
+It was moments like this that made them realize how much they meant to each other. They knew that no matter what challenges lay ahead, they would always have each other's backs. As the night drew to a close, the three friends made a promise to always stay in touch, no matter where life took them.
+
+As they parted ways and went back to their respective homes, they knew that they had just shared a special moment, one that they would treasure for the rest of their lives. And as they looked back at the town of Red Rock, they knew that their adventures were far from over. There was still so much of the Wild West to explore, and they were ready to face it together, as always.
