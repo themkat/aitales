@@ -15,3 +15,5 @@ The generation works as follows:
 
 
 The algorithm that generates the stories will probably also change as time goes by. New keywords are added to its "database", new tweaks are done to the queries sent to OpenAIs APIs, new APIs used instead etc. This is to continually try to improve the quality. The main goal of the stories is that they should inspire, and most importantly be fun to read for all of you :) 
+
+![ai generated image](/assets/images/tiesthatbindus.png)
