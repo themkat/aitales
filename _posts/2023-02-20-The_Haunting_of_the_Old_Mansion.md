@@ -7,10 +7,18 @@ image: assets/images/2023-02-20-The_Haunting_of_the_Old_Mansion.png
 ---
 
 
-The old abandoned house stood alone on the outskirts of town, a warning to all that nothing good comes from it. The locals whispered of a ghost that had haunted the house for centuries, but none dared step foot on the property for fear of the unknown.
+Deep in the history of the town, there was a tragic story that had been long forgotten. The house, once a grand mansion, had been the home of a wealthy family who had fallen on hard times. They had become desperate for money and resorted to extreme measures, including locking up their own daughter to try and force her into a marriage that would bring them financial stability. The girl eventually died of starvation, locked up and forgotten in one of the hidden rooms of the house.
 
-It was late one night when a young couple decided to test their courage and explore the house. It felt wrong from the start, like a chill had settled over them and the darkness seemed to be alive. They slowly made their way through the rooms, the creaking of the floorboards causing them to jump at every sound. 
+The family's wealth quickly dwindled, and they were forced to abandon their home. As time passed, the house became a symbol of the family's greed and cruelty, and people began to whisper about the ghostly apparition that haunted the old mansion.
 
-Suddenly they heard a voice, soft and eerie, calling out from the shadows. They froze in fear as the voice spoke again, this time louder, more menacing. It was then that they both saw it, a glowing figure standing in the hallway. It was the ghost, eyes wide with rage and a long white cloak draped around its body.
+The young couple who had dared to explore the haunted house were unaware of its tragic past, but they had stumbled into a place of unspeakable horror. The ghost of the young girl who had died in the house had been trapped there, unable to move on and haunted by the memories of her own suffering.
 
-The couple ran, screaming in terror, as the ghost chased them out of the house. When they reached the safety of their car they looked back to see the ghost had disappeared. But they both knew that no one was safe from the spirit of the old abandoned house.
+As the couple fled the house, they thought they had escaped the spirit's wrath. But they were wrong. The ghostly apparition followed them, consumed with rage at the living for being free and alive. It continued to haunt and torment them, appearing in their dreams and causing them to suffer from nightmares and sleepless nights.
+
+In the end, the couple's relationship began to fall apart. The ghostly apparition had driven a wedge between them that they could not overcome. They both started to experience strange occurrences, with objects moving on their own and cold drafts of air that seemed to come from nowhere.
+
+One night, the ghost appeared to them both in their dreams. It was more terrifying than ever, with its eyes full of anger and its voice cold and full of malice. The couple woke up in a cold sweat, and as they reached out to comfort each other, they suddenly saw the ghostly figure standing at the foot of their bed.
+
+The ghostly apparition spoke in a low, mournful tone, "I have been trapped in this world for too long. I will not let anyone else go free."
+
+With those words, the ghostly figure lunged forward and the couple never woke up again. The town was left with yet another tragic story of the haunted house, with no one daring to enter it again, and the ghostly apparition continuing to roam free.
