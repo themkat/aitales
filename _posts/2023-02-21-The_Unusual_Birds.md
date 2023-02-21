@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "The Unexpected Tale of the Unusual Folklore"
+title:  "The Unusual Birds"
 author: lily
 categories: [ folklore ]
-image: assets/images/2023-02-21-The_Unexpected_Tale_of_the_Unusual_Folklore.png
+image: assets/images/2023-02-21-The_Unusual_Birds.png
 ---
 
 
