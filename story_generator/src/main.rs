@@ -9,7 +9,7 @@ use story_generator::{GeneratorApp, GeneratorConfig};
 #[command(about = "Simple program for generating AI stories.")]
 struct CliSettings {
     #[command(subcommand)]
-    command: Option<CliCommand>,
+    command: CliCommand,
     // TODO: possibility to override default configuration file?
 }
 
@@ -42,17 +42,13 @@ async fn main() {
     let app = GeneratorApp::new(openai_token, app_config);
 
     match &cli_settings.command {
-        Some(CliCommand::Generate) => {
+        CliCommand::Generate => {
             app.generate().await;
         }
-        Some(CliCommand::Sequelize { story_file }) => {
+        CliCommand::Sequelize { story_file } => {
             // TODO: fix this. Probably quick and dirty with clone because I'm tired
             app.sequelize(&story_file.clone().expect("Story file should be present!"))
                 .await;
-        }
-        None => {
-            // TODO: maybe some error of some kind or similar?
-            println!("No command given!");
         }
     }
 }
