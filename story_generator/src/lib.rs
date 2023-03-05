@@ -58,14 +58,37 @@ impl GeneratorApp {
         println!("detail: {}", &selected_detail);
 
         // generation of our text, title and cover image
-        let story_text =
-            openai::do_completion_request(&self.token, &create_story_prompt_string(&story_details))
-                .await
-                .expect("no story...");
-        let story_title =
-            openai::do_completion_request(&self.token, &create_title_prompt(&story_details))
-                .await
-                .expect("no title...");
+        let story_prompt = create_story_prompt_string(&story_details);
+        let story_text = openai::do_chat_request(&self.token, &[story_prompt.clone()])
+            .await
+            .expect("no story...");
+        let story_title = openai::do_chat_request(
+            &self.token,
+            &[
+                story_prompt.clone(),
+                story_text.clone(),
+                "Suggest a title for the story above".to_string(),
+            ],
+        )
+        .await
+        .expect("no title...");
+
+        // process the genre as well. Sometimes something is generated that fits better in other genres
+        let story_refined_genres = openai::do_chat_request(
+            &self.token,
+            &[
+                story_prompt.clone(),
+                story_text.clone(),
+                "Give a comma seperated list of maximum 3 genres for the story above".to_string(),
+            ],
+        )
+        .await
+        .expect("Could not get genres")
+        .to_lowercase()
+        .replace('.', "");
+
+        println!("Refined genres: {story_refined_genres}");
+
         let story_image_url = openai::do_image_generation_request(
             &self.token,
             &create_image_generation_prompt(&story_details),
@@ -94,7 +117,7 @@ impl GeneratorApp {
             story_text_file.write_all(story_text.as_bytes()),
             story_title_file.write_all(story_title.as_bytes()),
             story_image_url_file.write_all(story_image_url.as_bytes()),
-            story_genre_file.write_all(selected_genre.as_bytes())
+            story_genre_file.write_all(story_refined_genres.as_bytes())
         );
         w1.expect("Coult not write file!");
         w2.expect("Coult not write file!");
@@ -105,11 +128,13 @@ impl GeneratorApp {
 
 fn create_story_prompt_string(story_details: &StoryDetails) -> String {
     format!(
-        "Write a {} page long story about {}. {}",
+        "Write a {} 800 to 1400 word story about {}. {}",
         story_details.genre, story_details.theme, story_details.extra_detail
     )
 }
 
+#[deprecated]
+#[allow(dead_code)]
 fn create_title_prompt(story_details: &StoryDetails) -> String {
     format!(
         "Suggest a title for a {} about {}",
@@ -152,9 +177,9 @@ mod tests {
         ];
 
         let expected_prompts = vec![
-            "Write a thriller page long story about a secret agent tracking down a smuggler. ",
-            "Write a drama page long story about someone inheriting wealth. People should smile",
-            "Write a diddly doo page long story about doodely diddely. Okayley dokeley",
+            "Write a thriller 800 to 1400 word story about a secret agent tracking down a smuggler. ",
+            "Write a drama 800 to 1400 word story about someone inheriting wealth. People should smile",
+            "Write a diddly doo 800 to 1400 word story about doodely diddely. Okayley dokeley",
         ];
 
         let results: Vec<String> = story_details
