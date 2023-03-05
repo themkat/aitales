@@ -22,7 +22,7 @@ jobs:
         env:
           RUST_BACKTRACE: 1
         run: |
-          /story_generator
+          /story_generator generate
       - uses: actions/checkout@v3
       - name: Configure git
         run: |
