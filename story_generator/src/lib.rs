@@ -85,7 +85,7 @@ impl GeneratorApp {
         .await
         .expect("Could not get genres")
         .to_lowercase()
-        .replace(".", "");
+        .replace('.', "");
 
         println!("Refined genres: {story_refined_genres}");
 
@@ -128,7 +128,7 @@ impl GeneratorApp {
 
 fn create_story_prompt_string(story_details: &StoryDetails) -> String {
     format!(
-        "Write a {} page long story about {}. {}",
+        "Write a {} 800 to 1400 word story about {}. {}",
         story_details.genre, story_details.theme, story_details.extra_detail
     )
 }
@@ -177,9 +177,9 @@ mod tests {
         ];
 
         let expected_prompts = vec![
-            "Write a thriller page long story about a secret agent tracking down a smuggler. ",
-            "Write a drama page long story about someone inheriting wealth. People should smile",
-            "Write a diddly doo page long story about doodely diddely. Okayley dokeley",
+            "Write a thriller 800 to 1400 word story about a secret agent tracking down a smuggler. ",
+            "Write a drama 800 to 1400 word story about someone inheriting wealth. People should smile",
+            "Write a diddly doo 800 to 1400 word story about doodely diddely. Okayley dokeley",
         ];
 
         let results: Vec<String> = story_details
