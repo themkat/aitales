@@ -72,6 +72,23 @@ impl GeneratorApp {
         )
         .await
         .expect("no title...");
+
+        // process the genre as well. Sometimes something is generated that fits better in other genres
+        let story_refined_genres = openai::do_chat_request(
+            &self.token,
+            &[
+                story_prompt.clone(),
+                story_text.clone(),
+                "Give a comma seperated list of maximum 3 genres for the story above".to_string(),
+            ],
+        )
+        .await
+        .expect("Could not get genres")
+        .to_lowercase()
+        .replace(".", "");
+
+        println!("Refined genres: {story_refined_genres}");
+
         let story_image_url = openai::do_image_generation_request(
             &self.token,
             &create_image_generation_prompt(&story_details),
@@ -100,7 +117,7 @@ impl GeneratorApp {
             story_text_file.write_all(story_text.as_bytes()),
             story_title_file.write_all(story_title.as_bytes()),
             story_image_url_file.write_all(story_image_url.as_bytes()),
-            story_genre_file.write_all(selected_genre.as_bytes())
+            story_genre_file.write_all(story_refined_genres.as_bytes())
         );
         w1.expect("Coult not write file!");
         w2.expect("Coult not write file!");
