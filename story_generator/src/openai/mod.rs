@@ -22,6 +22,7 @@ struct OpenAiCompletionChoice {
     text: String,
 }
 
+#[deprecated]
 pub async fn do_completion_request(
     api_token: &String,
     prompt: &String,
@@ -131,7 +132,7 @@ struct OpenAiChatChoice {
     message: OpenAiChatMessage,
 }
 
-async fn do_chat_request(
+pub async fn do_chat_request(
     api_token: &String,
     earlier_messages: &Vec<String>,
 ) -> Result<String, reqwest::Error> {
@@ -173,5 +174,6 @@ async fn do_chat_request(
         .first()
         .expect("No chat message in result")
         .message
-        .content)
+        .content
+        .clone())
 }
