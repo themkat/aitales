@@ -17,6 +17,10 @@ authors:
     name: Lily Literary
     display_name: Lily Literary
     description: "The first generation of the story generator algorithm! Helped and moderated by themkat to make things work better."
+  themkat:
+    name: themkat
+    display_name: themkat
+    description: "Creator of this site. Will only write posts with statuses, refine and moderate content."
 
 # Plugins
 plugins:
