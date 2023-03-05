@@ -59,12 +59,12 @@ impl GeneratorApp {
 
         // generation of our text, title and cover image
         let story_prompt = create_story_prompt_string(&story_details);
-        let story_text = openai::do_chat_request(&self.token, &vec![story_prompt.clone()])
+        let story_text = openai::do_chat_request(&self.token, &[story_prompt.clone()])
             .await
             .expect("no story...");
         let story_title = openai::do_chat_request(
             &self.token,
-            &vec![
+            &[
                 story_prompt.clone(),
                 story_text.clone(),
                 "Suggest a title for the story above".to_string(),
@@ -117,6 +117,7 @@ fn create_story_prompt_string(story_details: &StoryDetails) -> String {
 }
 
 #[deprecated]
+#[allow(dead_code)]
 fn create_title_prompt(story_details: &StoryDetails) -> String {
     format!(
         "Suggest a title for a {} about {}",

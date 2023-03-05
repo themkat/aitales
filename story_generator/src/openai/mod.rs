@@ -23,6 +23,7 @@ struct OpenAiCompletionChoice {
 }
 
 #[deprecated]
+#[allow(dead_code)]
 pub async fn do_completion_request(
     api_token: &String,
     prompt: &String,
@@ -134,7 +135,7 @@ struct OpenAiChatChoice {
 
 pub async fn do_chat_request(
     api_token: &String,
-    earlier_messages: &Vec<String>,
+    earlier_messages: &[String],
 ) -> Result<String, reqwest::Error> {
     let client = reqwest::Client::builder()
         .timeout(Duration::from_secs(720))
