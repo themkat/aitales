@@ -1,0 +1,69 @@
+name: Generate a sequel to a previous story
+
+# TODO: any way we can make the input even simpler? Would be awesome if we could create a dropdown menu of some kind...
+on:
+  workflow_dispatch:
+    inputs:
+      story_file:
+        description: 'Filename of the story we want to generate a sequel to'
+        required: true
+        type: string
+
+env:
+  OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
+
+jobs:
+  sequelize-story:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/themkat/aitales_story_generator:702fc15f3212fbaf0982637cf7ac9229e9a71a89
+      credentials:
+        username: themkat
+        password: ${{  secrets.GITHUB_TOKEN }}
+    steps:
+      - name: Get basic information on previous story
+        id: story_data
+        run: |
+          TITLE=$(./.github/scripts/get_title_from_story.sh $(cat _posts/${{ inputs.story_file }}))
+          ./.github/scripts/get_text_from_story.sh $(cat _posts/${{ inputs.story_file }}) > story.txt
+          echo "story_title=\"$TITLE\""
+      
+      - name: generate sequel
+        working-directory: /
+        env:
+          RUST_BACKTRACE: 1
+        run: |
+          /story_generator sequelize story.txt
+      - uses: actions/checkout@v3
+      - name: Configure git
+        run: |
+          git config --global --add safe.directory $GITHUB_WORKSPACE
+          git config --global user.name 'actions (automatic)'
+          git config --global user.email 'action@github.com'
+      - name: Transform stories to jekylls markdown format
+        id: transform
+        env:
+          # TODO: any way we could make these parts of the pipeline into something common? 90 % will be the same it seems...
+          TITLE_FILE: /sequel_title.txt
+          IMAGE_URL_FILE: /sequel_image_url.txt
+          TEXT_FILE: /sequel_text.txt
+          CATEGORY_FILE: /sequel_genre.txt
+          # TODO: any sequel arguments we need here?
+        run: |
+          GEN_FILENAME=$(./.github/scripts/transform_to_story.sh)
+          TITLE=$(cat $TITLE_FILE | tr -d '\n' | tr -d '\"')
+          echo "title=$TITLE" >> $GITHUB_OUTPUT
+          BRANCH_NAME=story-$(date '+%Y-%m-%d_%H-%M')
+          echo "branchname=$BRANCH_NAME" >> $GITHUB_OUTPUT
+          git checkout -b $BRANCH_NAME
+          git add _posts/$GEN_FILENAME.md
+          git add assets/images/$GEN_FILENAME.png
+          git commit -m "New story: $TITLE"
+          git push --set-upstream origin $BRANCH_NAME
+      - name: Create Pull Request
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+        run: |
+          gh pr create --title "New story: ${{ steps.transform.outputs.title }}" --body "New story! pls review me"
