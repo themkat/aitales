@@ -29,7 +29,7 @@ impl GeneratorApp {
         Self { token, config }
     }
 
-    pub async fn run(&self) {
+    pub async fn generate(&self) {
         // choose randomly the information we want for each of the config options
         let genres = &self.config.genres;
         let themes = &self.config.themes;
@@ -123,6 +123,30 @@ impl GeneratorApp {
         w2.expect("Coult not write file!");
         w3.expect("Coult not write file!");
         w4.expect("Coult not write file!");
+    }
+
+    pub async fn sequelize(&self, story_file: &String) {
+        // TODO: call the sequel handling logic somehow.
+        // TODO: should we take into account that there might be a chain of prequels? Or just assume
+        let story_text = tokio::fs::read_to_string(story_file)
+            .await
+            .expect("File not found!");
+
+        // TODO: how should we prompt it? empty assistant message in between?
+        let sequel_text = openai::do_chat_request(
+            &self.token,
+            &[
+                story_text,
+                String::new(),
+                "Generate a sequel to the story above".to_string(),
+            ],
+        )
+        .await
+        .expect("No sequel generated. Probably server issue");
+
+        println!("{sequel_text}");
+
+        // TODO: maybe some of the generator operations (genre, image etc.) could be extracted to
     }
 }
 

@@ -1,9 +1,37 @@
 use std::{env, fs::File};
 
+use clap::{Parser, Subcommand};
 use story_generator::{GeneratorApp, GeneratorConfig};
+
+// cli parser stuff with clap
+#[derive(Parser)]
+#[command(author = "themkat")]
+#[command(about = "Simple program for generating AI stories.")]
+struct CliSettings {
+    #[command(subcommand)]
+    command: Option<CliCommand>,
+    // TODO: possibility to override default configuration file?
+}
+
+#[derive(Subcommand)]
+enum CliCommand {
+    // TODO: generate command
+    #[command(about = "Generate a new story from scratch, given the property file")]
+    Generate,
+    // TODO: how should we take in the previous story as an argument? input text file?
+    // TODO: what about the title, genres etc.? Do sequelizer need to take that into account?
+    #[command(about = "Generate a sequel to an existing story")]
+    Sequelize { story_file: Option<String> },
+}
 
 #[tokio::main]
 async fn main() {
+    // TODO: what would the best way to introduce a sequalizer be?
+    //       input the previous story? or stories? how much can openai APIs take before we get a problem with data lengths?
+    //       should we use clap to handle command line args?
+    //
+    let cli_settings = CliSettings::parse();
+
     let openai_token =
         env::var("OPENAI_TOKEN").expect("OpenAI token needs to be defined to be able to use APIs!");
     let config_file = File::open("generator_conf.yml")
@@ -12,7 +40,21 @@ async fn main() {
         .expect("Could not parse yaml config file! Make sure it is correctly formatted");
 
     let app = GeneratorApp::new(openai_token, app_config);
-    app.run().await;
+
+    match &cli_settings.command {
+        Some(CliCommand::Generate) => {
+            app.generate().await;
+        }
+        Some(CliCommand::Sequelize { story_file }) => {
+            // TODO: fix this. Probably quick and dirty with clone because I'm tired
+            app.sequelize(&story_file.clone().expect("Story file should be present!"))
+                .await;
+        }
+        None => {
+            // TODO: maybe some error of some kind or similar?
+            println!("No command given!");
+        }
+    }
 }
 
 // TODO: maybe stupid? very unconventional probably
