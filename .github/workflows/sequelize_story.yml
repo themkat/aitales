@@ -21,13 +21,9 @@ jobs:
         username: themkat
         password: ${{  secrets.GITHUB_TOKEN }}
     steps:
-      - name: Get basic information on previous story
-        id: story_data
+      - name: Create temporary file with only the text (no metadata) of the story
         run: |
-          TITLE=$(./.github/scripts/get_title_from_story.sh $(cat _posts/${{ inputs.story_file }}))
           ./.github/scripts/get_text_from_story.sh $(cat _posts/${{ inputs.story_file }}) > story.txt
-          echo "story_title=\"$TITLE\""
-      
       - name: generate sequel
         working-directory: /
         env:
@@ -48,7 +44,7 @@ jobs:
           IMAGE_URL_FILE: /sequel_image_url.txt
           TEXT_FILE: /sequel_text.txt
           CATEGORY_FILE: /sequel_genre.txt
-          # TODO: any sequel arguments we need here?
+          SEQUEL_DATA: "sequel_to: ${{ inputs.story_file }}"
         run: |
           GEN_FILENAME=$(./.github/scripts/transform_to_story.sh)
           TITLE=$(cat $TITLE_FILE | tr -d '\n' | tr -d '\"')

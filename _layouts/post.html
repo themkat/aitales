@@ -40,7 +40,12 @@ post_class: post-template
 
                 <!-- Post Title -->
                 <h1 class="posttitle">{{ page.title }}</h1>
-
+                <!-- Give an indication that the story is a sequel -->
+                {% if page.sequel_to %}
+                {% assign prequel_path = page.sequel_to | prepend: "_posts/" %}
+                {% assign prequel_post = site.posts | where: "path", prequel_path | first %}
+                <h4>Sequel to <a href="{{ prequel_post.url }}">{{ prequel_post.title }}</a></h4>
+                {% endif %}
             </div>
 
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->

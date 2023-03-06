@@ -26,6 +26,10 @@ mv TMP_FILE.md _posts/$BLOGPOST_FILENAME
 cat _posts/$BLOGPOST_FILENAME | sed "s/###IMAGE_FILENAME###/$IMAGE_FILENAME/" > TMP_FILE.md
 mv TMP_FILE.md _posts/$BLOGPOST_FILENAME
 
+# populate the SEQUEL_DATA if any
+cat _posts/$BLOGPOST_FILENAME | sed "s/###SEQUEL_DATA###/$SEQUEL_DATA/" > TMP_FILE.md
+mv TMP_FILE.md _posts/$BLOGPOST_FILENAME
+
 # add the generated text
 cat $TEXT_FILE >> _posts/$BLOGPOST_FILENAME
 
