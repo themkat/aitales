@@ -3,7 +3,6 @@ use std::{env, fs::File};
 use clap::{Parser, Subcommand};
 use story_generator::{GeneratorApp, GeneratorConfig};
 
-// cli parser stuff with clap
 #[derive(Parser)]
 #[command(author = "themkat")]
 #[command(about = "Simple program for generating AI stories.")]
@@ -15,21 +14,14 @@ struct CliSettings {
 
 #[derive(Subcommand)]
 enum CliCommand {
-    // TODO: generate command
     #[command(about = "Generate a new story from scratch, given the property file")]
     Generate,
-    // TODO: how should we take in the previous story as an argument? input text file?
-    // TODO: what about the title, genres etc.? Do sequelizer need to take that into account?
     #[command(about = "Generate a sequel to an existing story")]
     Sequelize { story_file: Option<String> },
 }
 
 #[tokio::main]
 async fn main() {
-    // TODO: what would the best way to introduce a sequalizer be?
-    //       input the previous story? or stories? how much can openai APIs take before we get a problem with data lengths?
-    //       should we use clap to handle command line args?
-    //
     let cli_settings = CliSettings::parse();
 
     let openai_token =

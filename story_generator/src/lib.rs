@@ -126,7 +126,7 @@ impl GeneratorApp {
     }
 
     pub async fn sequelize(&self, story_file: &String) {
-        // TODO: should we take into account that there might be a chain of prequels? Or just assume
+        // TODO: should we take into account that there might be a chain of prequels? Or just take into account the previous entry?
         let story_text = tokio::fs::read_to_string(story_file)
             .await
             .expect("File not found!");
@@ -186,8 +186,6 @@ impl GeneratorApp {
         let mut sequel_genre_file = File::create("sequel_genre.txt")
             .await
             .expect("Could not create genre file!");
-
-        // TODO: should probably export the genre(s) selected to a file as well. That way we can use them when generating md files
 
         let (w1, w2, w3, w4) = join!(
             sequel_text_file.write_all(sequel_text.as_bytes()),
