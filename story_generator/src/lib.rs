@@ -166,11 +166,27 @@ impl GeneratorApp {
         .to_lowercase()
         .replace('.', "");
 
+        // describe a central setting in the story to give as an image
+        let sequel_image_description = openai::do_chat_request(
+            &self.token,
+            &[
+                sequel_text.clone(),
+                String::new(),
+                "Describe a central setting in the story above in maximum 4 sentences, to a painter who is going to paint it"
+                    .to_string(),
+            ],
+        )
+        .await
+        .expect("Could not create descriptor text");
+
+        println!("desc: {sequel_image_description}");
+
         // TODO: what is the best way to generate the image?
         //       make chatgpt generate a prompt for us? how? "Describe the setting in 4 sentences"? or will that be too boring? sending in the title?
-        let sequel_image_url = openai::do_image_generation_request(&self.token, &sequel_title)
-            .await
-            .expect("no image fetched...");
+        let sequel_image_url =
+            openai::do_image_generation_request(&self.token, &sequel_image_description)
+                .await
+                .expect("no image fetched...");
 
         // write the results to file so the user (github actions) can use the data
         // TODO: should the file writing above be extracted to a method to avoid duplication maybe :P
