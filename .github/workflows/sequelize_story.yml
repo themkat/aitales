@@ -30,7 +30,7 @@ jobs:
         env:
           RUST_BACKTRACE: 1
         run: |
-          /story_generator sequelize story.txt
+          /story_generator sequelize /work/story.txt
       - name: Configure git
         run: |
           git config --global --add safe.directory $GITHUB_WORKSPACE
