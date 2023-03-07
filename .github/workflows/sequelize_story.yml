@@ -21,6 +21,7 @@ jobs:
         username: themkat
         password: ${{  secrets.GITHUB_TOKEN }}
     steps:
+      - uses: actions/checkout@v3
       - name: Create temporary file with only the text (no metadata) of the story
         run: |
           ./.github/scripts/get_text_from_story.sh $(cat _posts/${{ inputs.story_file }}) > story.txt
@@ -30,7 +31,6 @@ jobs:
           RUST_BACKTRACE: 1
         run: |
           /story_generator sequelize story.txt
-      - uses: actions/checkout@v3
       - name: Configure git
         run: |
           git config --global --add safe.directory $GITHUB_WORKSPACE
