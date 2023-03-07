@@ -29,7 +29,7 @@ impl GeneratorApp {
         Self { token, config }
     }
 
-    pub async fn run(&self) {
+    pub async fn generate(&self) {
         // choose randomly the information we want for each of the config options
         let genres = &self.config.genres;
         let themes = &self.config.themes;
@@ -118,6 +118,95 @@ impl GeneratorApp {
             story_title_file.write_all(story_title.as_bytes()),
             story_image_url_file.write_all(story_image_url.as_bytes()),
             story_genre_file.write_all(story_refined_genres.as_bytes())
+        );
+        w1.expect("Coult not write file!");
+        w2.expect("Coult not write file!");
+        w3.expect("Coult not write file!");
+        w4.expect("Coult not write file!");
+    }
+
+    pub async fn sequelize(&self, story_file: &String) {
+        // TODO: should we take into account that there might be a chain of prequels? Or just take into account the previous entry?
+        let story_text = tokio::fs::read_to_string(story_file)
+            .await
+            .expect("File not found!");
+
+        let sequel_text = openai::do_chat_request(
+            &self.token,
+            &[
+                story_text,
+                String::new(),
+                "Generate a sequel to the story above. Should be at least 1000 words".to_string(),
+            ],
+        )
+        .await
+        .expect("No sequel generated. Probably server issue");
+
+        let sequel_title = openai::do_chat_request(
+            &self.token,
+            &[
+                sequel_text.clone(),
+                String::new(),
+                "Suggest a title for the story above".to_string(),
+            ],
+        )
+        .await
+        .expect("no title...");
+
+        let sequel_genres = openai::do_chat_request(
+            &self.token,
+            &[
+                sequel_text.clone(),
+                String::new(),
+                "Give a comma seperated list of maximum 3 genres for the story above".to_string(),
+            ],
+        )
+        .await
+        .expect("Could not get genres")
+        .to_lowercase()
+        .replace('.', "");
+
+        // describe a central setting in the story to give as an image
+        let sequel_image_description = openai::do_chat_request(
+            &self.token,
+            &[
+                sequel_text.clone(),
+                String::new(),
+                "Describe a central setting in the story above in maximum 4 sentences, to a painter who is going to paint it"
+                    .to_string(),
+            ],
+        )
+        .await
+        .expect("Could not create descriptor text");
+
+        println!("desc: {sequel_image_description}");
+
+        // generate the image
+        let sequel_image_url =
+            openai::do_image_generation_request(&self.token, &sequel_image_description)
+                .await
+                .expect("no image fetched...");
+
+        // write the results to file so the user (github actions) can use the data
+        // TODO: should the file writing above be extracted to a method to avoid duplication maybe :P
+        let mut sequel_text_file = File::create("sequel_text.txt")
+            .await
+            .expect("Could not create sequel text file!");
+        let mut sequel_title_file = File::create("sequel_title.txt")
+            .await
+            .expect("Could not create sequel title file!");
+        let mut sequel_image_url_file = File::create("sequel_image_url.txt")
+            .await
+            .expect("Could not create image url file!");
+        let mut sequel_genre_file = File::create("sequel_genre.txt")
+            .await
+            .expect("Could not create genre file!");
+
+        let (w1, w2, w3, w4) = join!(
+            sequel_text_file.write_all(sequel_text.as_bytes()),
+            sequel_title_file.write_all(sequel_title.as_bytes()),
+            sequel_image_url_file.write_all(sequel_image_url.as_bytes()),
+            sequel_genre_file.write_all(sequel_genres.as_bytes())
         );
         w1.expect("Coult not write file!");
         w2.expect("Coult not write file!");

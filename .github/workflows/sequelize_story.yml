@@ -1,15 +1,19 @@
-name: Generate story
+name: Generate a sequel to a previous story
 
+# TODO: any way we can make the input even simpler? Would be awesome if we could create a dropdown menu of some kind...
 on:
-  schedule:
-    - cron: "0 0 * * 3"
   workflow_dispatch:
+    inputs:
+      story_file:
+        description: 'Filename of the story we want to generate a sequel to'
+        required: true
+        type: string
 
 env:
   OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
 
 jobs:
-  generate-story:
+  sequelize-story:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/themkat/aitales_story_generator:702fc15f3212fbaf0982637cf7ac9229e9a71a89
@@ -17,12 +21,15 @@ jobs:
         username: themkat
         password: ${{  secrets.GITHUB_TOKEN }}
     steps:
-      - name: generate story
+      - name: Create temporary file with only the text (no metadata) of the story
+        run: |
+          ./.github/scripts/get_text_from_story.sh $(cat _posts/${{ inputs.story_file }}) > story.txt
+      - name: generate sequel
         working-directory: /
         env:
           RUST_BACKTRACE: 1
         run: |
-          /story_generator generate
+          /story_generator sequelize story.txt
       - uses: actions/checkout@v3
       - name: Configure git
         run: |
@@ -32,10 +39,12 @@ jobs:
       - name: Transform stories to jekylls markdown format
         id: transform
         env:
-          TITLE_FILE: /story_title.txt
-          IMAGE_URL_FILE: /story_image_url.txt
-          TEXT_FILE: /story_text.txt
-          CATEGORY_FILE: /story_genre.txt
+          # TODO: any way we could make these parts of the pipeline into something common? 90 % will be the same it seems...
+          TITLE_FILE: /sequel_title.txt
+          IMAGE_URL_FILE: /sequel_image_url.txt
+          TEXT_FILE: /sequel_text.txt
+          CATEGORY_FILE: /sequel_genre.txt
+          SEQUEL_DATA: "sequel_to: ${{ inputs.story_file }}"
         run: |
           GEN_FILENAME=$(./.github/scripts/transform_to_story.sh)
           TITLE=$(cat $TITLE_FILE | tr -d '\n' | tr -d '\"')

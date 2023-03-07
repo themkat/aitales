@@ -1,9 +1,29 @@
 use std::{env, fs::File};
 
+use clap::{Parser, Subcommand};
 use story_generator::{GeneratorApp, GeneratorConfig};
+
+#[derive(Parser)]
+#[command(author = "themkat")]
+#[command(about = "Simple program for generating AI stories.")]
+struct CliSettings {
+    #[command(subcommand)]
+    command: CliCommand,
+    // TODO: possibility to override default configuration file?
+}
+
+#[derive(Subcommand)]
+enum CliCommand {
+    #[command(about = "Generate a new story from scratch, given the property file")]
+    Generate,
+    #[command(about = "Generate a sequel to an existing story")]
+    Sequelize { story_file: Option<String> },
+}
 
 #[tokio::main]
 async fn main() {
+    let cli_settings = CliSettings::parse();
+
     let openai_token =
         env::var("OPENAI_TOKEN").expect("OpenAI token needs to be defined to be able to use APIs!");
     let config_file = File::open("generator_conf.yml")
@@ -12,7 +32,17 @@ async fn main() {
         .expect("Could not parse yaml config file! Make sure it is correctly formatted");
 
     let app = GeneratorApp::new(openai_token, app_config);
-    app.run().await;
+
+    match &cli_settings.command {
+        CliCommand::Generate => {
+            app.generate().await;
+        }
+        CliCommand::Sequelize { story_file } => {
+            // TODO: fix this. Probably quick and dirty with clone because I'm tired
+            app.sequelize(&story_file.clone().expect("Story file should be present!"))
+                .await;
+        }
+    }
 }
 
 // TODO: maybe stupid? very unconventional probably
