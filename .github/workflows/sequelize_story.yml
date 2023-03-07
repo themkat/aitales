@@ -24,13 +24,13 @@ jobs:
       - uses: actions/checkout@v3
       - name: Create temporary file with only the text (no metadata) of the story
         run: |
-          ./.github/scripts/get_text_from_story.sh _posts/${{ inputs.story_file }} > /work/story.txt
+          ./.github/scripts/get_text_from_story.sh _posts/${{ inputs.story_file }} > /story.txt
       - name: generate sequel
         working-directory: /
         env:
           RUST_BACKTRACE: 1
         run: |
-          /story_generator sequelize /work/story.txt
+          /story_generator sequelize story.txt
       - name: Configure git
         run: |
           git config --global --add safe.directory $GITHUB_WORKSPACE
