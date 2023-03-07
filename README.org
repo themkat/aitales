@@ -1,0 +1,27 @@
+* AI Tales / Tales from the deep mind
+AI generated stories and illustrational imagery. Hopefully this can inspire people to see that very basic usage of [[https://platform.openai.com/docs/introduction/overview][OpenAI APIs]] can produce fun results :)
+
+
+My main goal for this project was simply to play with the APIs from OpenAI and see how I could use them. I had some other project ideas in mind as well at the time, but have not find ways to explore them. It was at least fun to see that I could automate a lot.
+
+
+*NOTE! This is a spare time project where I have taken some shortcuts in the Rust code. Production ready Rust code would probably be prettier and more optimized. Would also include some more unit tests that might mock the OpenAI API calls, maybe using the [[https://docs.rs/mockall/latest/mockall/][mockall]] create? As the code base is small, and easy to test manually I did some shortcuts. If I were to maintain this codebase for a longer period of time, this lack of tests would come back to bite me in the ass...*
+
+
+** Basic details about the implementation
+This repo is split into 3 main components:
+- frontend using jekyll
+- a story generator application written in Rust. This application does all of the API calls and generates all the data
+- Github Actions workflow using the application and transforming the result into something Jekyll can use. (there are also workflows for building and releasing the story generator off course)
+
+
+
+The story generator could easily have been implemented in any other language. I used Rust because I like the language and wanted to look at some crates I have not worked with yet (tokio, reqwest etc.). I was also happy to play around with clap, and will probably use that for my future CLIs as well :) 
+
+
+
+# TODO: mention the controversy about automating creative work. The stories, code etc. are only meant to inspire. You will quickly see that human touches (like the comments, etc. in config files) are needed for the AI to generate anything. AI can be a wonderful tool. The stories are also not as deep and wonderful as a human mind would come up with. The places, names etc. are after all gotten from other places, as that is how AI algorithms work (advanced applied statistics and pattern matching).
+
+
+# TODO: should probably write a bit about that the code should not be considered great. SOme more testing should have been done by mocking the API calls, and checking that we write the right data to file given that the API calls work. I got impatient, and just hacked away. This is a fun spare time project I did mostly over an evening after all :)
+# not familiar with mocking libraries in Rust, and didn't find it exciting enough. A more professional project should definitly have done this. Especially if the codebase was more complex. The more complex the codebase becomes, the more I will regret lack of tests when debugging etc. Okay for spare time shit
