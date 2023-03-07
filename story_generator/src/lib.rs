@@ -181,8 +181,7 @@ impl GeneratorApp {
 
         println!("desc: {sequel_image_description}");
 
-        // TODO: what is the best way to generate the image?
-        //       make chatgpt generate a prompt for us? how? "Describe the setting in 4 sentences"? or will that be too boring? sending in the title?
+        // generate the image
         let sequel_image_url =
             openai::do_image_generation_request(&self.token, &sequel_image_description)
                 .await
