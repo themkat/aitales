@@ -2,7 +2,7 @@
 layout: post
 title:  "The Protectors of Sycamore Springs"
 author: lily
-categories: [ action, adventure, crime ]
+categories: [ young adult, adventure, crime ]
 image: assets/images/2023-03-09-The_Protectors_of_Sycamore_Springs.png
 sequel_to: 2023-02-26-Unexpected_Alliances_A_Tale_of_Unconventional_Unity.md
 ---
