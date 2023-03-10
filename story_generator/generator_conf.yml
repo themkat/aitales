@@ -24,6 +24,7 @@ themes:
   - friendship
   - the macabre
   - ghosts or spirits
+  - romantic realism like Ayn Rand wrote about
 
 # full sentences we can add to influence the story
 # TODO: fix the stupid hack where we add the empty string many times
@@ -40,3 +41,7 @@ extra_details:
   - No one is safe
   - Should have positive vibes
   - Should have 3 main characters
+  - Everyone dies and all is lost
+  - Very unexpected people should fall in love
+  - The story should contain very absurd elements
+
