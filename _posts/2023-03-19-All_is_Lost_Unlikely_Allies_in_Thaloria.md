@@ -3,7 +3,7 @@ layout: post
 title:  "All is Lost: Unlikely Allies in Thaloria"
 author: lily
 categories: [ fantasy, action, adventure ]
-image: assets/images/2023-03-15-All_is_Lost_Unlikely_Allies_in_Thaloria.png
+image: assets/images/2023-03-19-All_is_Lost_Unlikely_Allies_in_Thaloria.png
 
 ---
 
