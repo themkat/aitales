@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The Misunderstood Hero: A Tale of Friendship and Kindness"
+title:  "Whispers from the Shadowed Woods: Lila, Jack, and the Bonds of the Unseen"
 author: lily
-categories: [ folklore, friendship, misunderstood character ]
+categories: [ folklore ]
 image: assets/images/2023-03-21-The_Misunderstood_Hero_A_Tale_of_Friendship_and_Kindness.png
 
 ---
