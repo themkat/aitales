@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "The Macabre Creature of the Forest: A Tale of Bravery and Friendship"
+title:  "The Macabre Creature of the Forest"
 author: lily
-categories: [ horror, folklore, adventure ]
+categories: [ folklore ]
 image: assets/images/2023-03-23-The_Macabre_Creature_of_the_Forest_A_Tale_of_Bravery_and_Friendship.png
 
 ---
@@ -27,5 +27,3 @@ Gideon, Isaac, and Caleb worked together to distract the creature while Gideon s
 The three friends were left standing in the clearing, panting and covered in sweat. They knew that they had just faced something truly terrifying, and they were grateful to have each other by their side.
 
 As they made their way back to the village, they realized that they had just become legends in their own right. The villagers would tell stories of their bravery for generations to come, and they would always be remembered as the ones who defeated the macabre creature of the forest.
-
-From that day forward, Gideon, Isaac, and Caleb were inseparable. They continued to face danger and adventure together, always relying on each other to get through the toughest of situations. And though they faced many challenges in their lives, they never forgot the day they defeated the macabre creature, and the bond that it had forged between them.
