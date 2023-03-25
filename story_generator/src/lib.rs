@@ -222,15 +222,6 @@ fn create_story_prompt_string(story_details: &StoryDetails) -> String {
     )
 }
 
-#[deprecated]
-#[allow(dead_code)]
-fn create_title_prompt(story_details: &StoryDetails) -> String {
-    format!(
-        "Suggest a title for a {} about {}",
-        story_details.genre, story_details.theme
-    )
-}
-
 fn create_image_generation_prompt(story_details: &StoryDetails) -> String {
     format!(
         "{} in the style of {}",
@@ -240,10 +231,7 @@ fn create_image_generation_prompt(story_details: &StoryDetails) -> String {
 
 #[cfg(test)]
 mod tests {
-    use crate::{
-        create_image_generation_prompt, create_story_prompt_string, create_title_prompt,
-        StoryDetails,
-    };
+    use crate::{create_image_generation_prompt, create_story_prompt_string, StoryDetails};
 
     #[test]
     fn test_create_story_prompt_string() {
@@ -274,40 +262,6 @@ mod tests {
         let results: Vec<String> = story_details
             .iter()
             .map(|elem| create_story_prompt_string(elem))
-            .collect();
-
-        assert_eq!(results, expected_prompts);
-    }
-
-    #[test]
-    fn test_create_title_prompt() {
-        let story_details = vec![
-            StoryDetails {
-                genre: "comedy".to_string(),
-                theme: "a guy".to_string(),
-                extra_detail: String::new(),
-            },
-            StoryDetails {
-                genre: "drama".to_string(),
-                theme: "family conflicts".to_string(),
-                extra_detail: "plsdontincludeme".to_string(),
-            },
-            StoryDetails {
-                genre: "diddly doo".to_string(),
-                theme: "doodely diddely".to_string(),
-                extra_detail: "Okayley dokeley".to_string(),
-            },
-        ];
-
-        let expected_prompts = vec![
-            "Suggest a title for a comedy about a guy",
-            "Suggest a title for a drama about family conflicts",
-            "Suggest a title for a diddly doo about doodely diddely",
-        ];
-
-        let results: Vec<String> = story_details
-            .iter()
-            .map(|elem| create_title_prompt(elem))
             .collect();
 
         assert_eq!(results, expected_prompts);
