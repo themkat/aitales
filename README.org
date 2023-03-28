@@ -10,7 +10,7 @@ My main goal for this project was simply to play with the APIs from OpenAI and s
 
 ** Basic details about the implementation
 This repo is split into 3 main components:
-- frontend using jekyll
+- frontend using jekyll. (pretty thanks to [[https://github.com/wowthemesnet/mediumish-theme-jekyll][WowTheme]]!)
 - a story generator application written in Rust. This application does all of the API calls and generates all the data
 - Github Actions workflow using the application and transforming the result into something Jekyll can use. (there are also workflows for building and releasing the story generator off course)
 
