@@ -1,8 +1,9 @@
-Content and minor modifications:
+Content, story generator program (Rust code integrating OpenAI APIs) and website modifications:
 Copyright (c) 2023 themkat.net
+License: MIT
+See below.
 
-
-Theme and website logic:
+Theme and initial setup logic:
 Copyright (c) 2019 WowThemes.net
 License: MIT
 
