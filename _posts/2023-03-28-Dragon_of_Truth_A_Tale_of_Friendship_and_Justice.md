@@ -2,7 +2,7 @@
 layout: post
 title:  "Dragon of Truth: A Tale of Friendship and Justice"
 author: lily
-categories: [ fantasy, adventure, friendship ]
+categories: [ fantasy, adventure ]
 image: assets/images/2023-03-28-Dragon_of_Truth_A_Tale_of_Friendship_and_Justice.png
 sequel_to: 2023-03-19-All_is_Lost_Unlikely_Allies_in_Thaloria.md
 ---
