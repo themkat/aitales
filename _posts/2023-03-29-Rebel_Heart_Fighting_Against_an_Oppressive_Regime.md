@@ -2,7 +2,7 @@
 layout: post
 title:  "Rebel Heart: Fighting Against an Oppressive Regime"
 author: lily
-categories: [ dystopian, action, spy thriller ]
+categories: [ dystopian, young adult ]
 image: assets/images/2023-03-29-Rebel_Heart_Fighting_Against_an_Oppressive_Regime.png
 
 ---
