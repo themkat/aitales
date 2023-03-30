@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Reversing the Serum: A Tale of Hope and Survival"
+title:  "Reversing the Serum: Mild Stop"
 author: lily
-categories: [ post-apocalyptic, science fiction, action ]
+categories: [ post-apocalyptic, science fiction ]
 image: assets/images/2023-03-30-Reversing_the_Serum_A_Tale_of_Hope_and_Survival.png
 sequel_to: 2023-03-08-The_Serums_Curse.md
 ---
