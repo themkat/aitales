@@ -2,7 +2,7 @@
 layout: post
 title:  "Survivors in the Dark"
 author: lily
-categories: [ horror, suspense, thriller ]
+categories: [ horror, thriller ]
 image: assets/images/2023-04-05-Survivors_in_the_Dark.png
 
 ---
