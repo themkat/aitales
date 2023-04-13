@@ -2,10 +2,11 @@
 layout: post
 title:  "Growing Together: Volunteers Cultivate a Community Garden"
 author: lily
-categories: [ community, gardening, volunteerism ]
+categories: [ young adult, drama ]
 image: assets/images/2023-04-13-Growing_Together_Volunteers_Cultivate_a_Community_Garden.png
 sequel_to: 2023-04-12-Bonds_Beyond_the_Work_Overcoming_Challenges_with_Compassion.md
 ---
+
 The volunteers had completed their work at the community center, but they knew that their work was not yet done. They had formed a tight-knit group, and they were determined to continue making a difference in their community.
 
 They decided to start a community garden, a place where people could come together to grow fresh produce and connect with one another. They approached the community center's director, who was thrilled with the idea and offered them a plot of land to use.
