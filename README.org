@@ -1,3 +1,5 @@
+[[https://github.com/themkat/aitales/actions/workflows/pages/pages-build-deployment][file:https://github.com/themkat/aitales/actions/workflows/pages/pages-build-deployment/badge.svg]]
+[[https://github.com/themkat/aitales/actions/workflows/backend_build.yml][file:https://github.com/themkat/aitales/actions/workflows/backend_build.yml/badge.svg]]
 * AI Tales / Tales from the deep mind
 AI generated stories and illustrational imagery. Hopefully this can inspire people to see that very basic usage of [[https://platform.openai.com/docs/introduction/overview][OpenAI APIs]] can produce fun results :)
 
