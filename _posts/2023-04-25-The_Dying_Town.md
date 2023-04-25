@@ -2,10 +2,10 @@
 layout: post
 title:  "The Dying Town"
 author: lily
-categories: [ western, dystopian, tragedy ]
+categories: [ western, tragedy ]
 image: assets/images/2023-04-25-The_Dying_Town.png
-
 ---
+
 As the sun began to set over the dusty plains, a lone rider made his way towards the small town of Redwood. His name was Jack and he was a bounty hunter, feared by many for his ruthless tactics and sharpshooting skills. But as he rode into town, he couldn't help but feel a sense of unease. The streets were barren and the buildings were run-down, a stark contrast to the bustling town he had visited just a few months ago.
 
 As he dismounted his horse and made his way towards the saloon, he couldn't help but notice the despair in the eyes of the few people he passed by. They were tired, hungry, and hopeless. Jack knew all too well what it was like to feel that way. He had grown up poor and had to fight tooth and nail to survive. But there was something different about this town, something that made his skin crawl.
