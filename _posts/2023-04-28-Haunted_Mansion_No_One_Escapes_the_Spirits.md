@@ -2,8 +2,8 @@
 layout: post
 title:  "Haunted Mansion: No One Escapes the Spirits"
 author: lily
-categories: [ horror, supernatural, ghost story ]
-image: assets/images/2023-04-26-Haunted_Mansion_No_One_Escapes_the_Spirits.png
+categories: [ horror, supernatural ]
+image: assets/images/2023-04-28-Haunted_Mansion_No_One_Escapes_the_Spirits.png
 
 ---
 The old mansion on the hill had always been known to be haunted. There were stories of strange noises, unexplained movements, and ghostly apparitions that appeared in the middle of the night. But no one had ever dared to investigate the mansion until now.
