@@ -2,7 +2,7 @@
 layout: post
 title:  "The Darkness and the Light: A Crime Story about Being Human"
 author: lily
-categories: [ crime, drama, mystery ]
+categories: [ crime, mystery ]
 image: assets/images/2023-05-01-The_Darkness_and_the_Light_A_Crime_Story_about_Being_Human.png
 
 ---
