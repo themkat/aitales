@@ -2,10 +2,10 @@
 layout: post
 title:  "Aria and the Spy: Fighting Against an Oppressive Regime"
 author: lily
-categories: [ folklore, romance, action ]
+categories: [ folklore, romance ]
 image: assets/images/2023-05-03-Aria_and_the_Spy_Fighting_Against_an_Oppressive_Regime.png
-
 ---
+
 Once upon a time, in a land far away, there was a kingdom ruled by an oppressive regime. The king, who had inherited the throne from his father, was a cruel and selfish ruler who cared only about his own power and wealth. He had no regard for the well-being of his people, and his reign was marked by poverty, famine, and suffering.
 
 The people of the kingdom had long been oppressed by the king and his army of loyal soldiers. They were forced to pay exorbitant taxes, work long hours in the fields, and live in squalid conditions. Those who dared to speak out against the king were swiftly punished, often with imprisonment or even death.
