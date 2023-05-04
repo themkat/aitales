@@ -45,7 +45,7 @@ jobs:
       - name: Create custom config
         if: ${{ inputs.custom_details_enabled }}
         run: |
-          echo "---\ngenres:\n  - ${{ inputs.genre }}\n\nthemes:\n  - ${{ inputs.theme }}\n\“extra_details:\n  - ${{ inputs.extra_details }}" > /generator_conf.yml
+          echo "---\ngenres:\n  - ${{ inputs.genre }}\n\nthemes:\n  - ${{ inputs.theme }}\n\nextra_details:\n  - ${{ inputs.extra_details }}" > /generator_conf.yml
       - name: generate story
         working-directory: /
         env:
