@@ -4,7 +4,32 @@ on:
   schedule:
     - cron: "0 0 * * 3"
   workflow_dispatch:
-
+    inputs:
+      custom_details_enabled:
+        description: "Whether to use the custom details below instead of the build in config"
+        type: boolean
+        default: false
+      genre:
+        description: "A main genre for the story"
+        type: string
+        options:
+          - science fiction
+          - fantasy
+          - crime
+          - horror
+          - action
+          - comedy
+          - drama
+          - folklore
+          - western
+          - young adult
+      theme:
+        description: "A theme like love, betrayal, friendship etc."
+        type: string
+      extra_details:
+        description: "Extra details we might want to give the story generator"
+        type: string
+    
 env:
   OPENAI_TOKEN: ${{ secrets.OPENAI_TOKEN }}
 
@@ -17,6 +42,10 @@ jobs:
         username: themkat
         password: ${{  secrets.GITHUB_TOKEN }}
     steps:
+      - name: Create custom config
+        if: ${{ inputs.custom_details_enabled }}
+        run: |
+          echo "---\ngenres:\n  - ${{ inputs.genre }}\n\nthemes:\n  - ${{ inputs.theme }}\n\“extra_details:\n  - ${{ inputs.extra_details }}" > /generator_conf.yml
       - name: generate story
         working-directory: /
         env:
