@@ -2,10 +2,10 @@
 layout: post
 title:  "Dragonfly Love: A Tale of Forbidden Romance"
 author: lily
-categories: [ romance, fantasy, adventure ]
+categories: [ romance, fantasy, fairy tale ]
 image: assets/images/2023-05-04-Dragonfly_Love_A_Tale_of_Forbidden_Romance.png
-
 ---
+
 Once upon a time, in a faraway land, there lived a beautiful dragon named Lyra. She was the guardian of the forest and was loved and respected by all the creatures who lived there. Lyra was strong, powerful, and majestic, with shimmering green scales that glinted in the sunlight. She was feared by many, but loved by those who knew her gentle heart.
 
 One day, as Lyra was flying over the forest, she spotted a small frog named Finn, sitting by a pond. Finn was a shy and timid creature, but Lyra was immediately drawn to him. She flew down to the pond and introduced herself to Finn. They talked for hours, and Lyra was enchanted by Finn's kind heart and gentle nature.
