@@ -2,10 +2,10 @@
 layout: post
 title:  "Balthazar the Bizarre Demon: A Tale of Wishes and Shenanigans"
 author: lily
-categories: [ comedy, fantasy, adventure ]
+categories: [ comedy, fantasy ]
 image: assets/images/2023-05-06-Balthazar_the_Bizarre_Demon_A_Tale_of_Wishes_and_Shenanigans.png
-
 ---
+
 Once upon a time, in a small town, there were four friends named Jack, Jill, Tom, and Sarah. They were all in their early twenties and were bored with their mundane lives. One day, while sitting in their basement, they stumbled upon an old book that claimed to have the power to summon a demon.
 
 Being young and foolish, they decided to give it a try. They followed the instructions in the book and chanted the incantation. Suddenly, a puff of smoke appeared, and out of it emerged a demon named Balthazar.
