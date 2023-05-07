@@ -2,10 +2,10 @@
 layout: post
 title:  "The Cat Whisperer: A Bizarre Adventure to Pet All the Cats in the World"
 author: lily
-categories: [ comedy, adventure, animals ]
+categories: [ comedy, adventure ]
 image: assets/images/2023-05-07-The_Cat_Whisperer_A_Bizarre_Adventure_to_Pet_All_the_Cats_in_the_World.png
-
 ---
+
 Once upon a time, there was a guy named Frank who just couldn't resist the urge to pet cats. He had always been a cat lover since he was a kid. He had a cat named Fluffy, and he loved her more than anything in the world. He would spend hours petting her, playing with her, and talking to her. He was convinced that there was no better feeling in the world than the soft purring of a cat.
 
 One day, Frank had an epiphany. He realized that there were millions of cats in the world, and he had only petted a handful of them. He decided that he was going to embark on a journey to pet all the cats in the world, even the wild ones like tigers. He would travel to every corner of the world, and he would not rest until he had petted every single cat.
@@ -18,7 +18,7 @@ But as Frank continued on his journey, he encountered a woman named Carol who wa
 
 Carol tried to convince Frank to stop his quest, but he refused to listen. He was determined to pet every cat in the world, and he would not let anyone stand in his way.
 
-As Frank continued on his journey, he encountered more and more cats. He traveled to Africa, where he petted lions and cheetahs. He traveled to Asia, where he petted tigers and leopards. He even traveled to the Arctic, where he petted snow leopards and lynx.
+As Frank continued on his journey, he encountered more and more cats. He traveled to Africa, where he petted lions and cheetahs. He traveled to Asia, where he petted tigers and leopards. He even traveled to the Arctic, where he petted snow leopards and lynx. He was unsure how they had ended up in the Arctic, but thought no more of it, his mission was to pet cats after all.
 
 Frank's journey was not without its challenges. He was bitten, scratched, and even attacked by some of the wild cats he encountered. He also had to deal with Carol, who followed him everywhere he went, trying to convince him to stop.
 
