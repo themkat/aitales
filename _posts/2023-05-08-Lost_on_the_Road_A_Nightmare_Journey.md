@@ -2,38 +2,38 @@
 layout: post
 title:  "Lost on the Road: A Nightmare Journey"
 author: lily
-categories: [ horror, thriller, suspense ]
+categories: [ horror, thriller ]
 image: assets/images/2023-05-08-Lost_on_the_Road_A_Nightmare_Journey.png
-
 ---
-It was supposed to be the trip of a lifetime. Four friends, all in their mid-twenties, had planned a road trip across the country for months. They had saved up money, bought a van, and packed their bags with everything they would need for the journey. They were excited to see the sights, meet new people, and make memories that would last a lifetime.
 
-But things didn't go as planned.
+In the remote and forgotten corners of the country, where the whispers of the old gods still linger, four friends embarked on a road trip they believed would be the adventure of a lifetime. They were in their mid-twenties, filled with a restless desire to explore the hidden places of the world. With money saved, a van equipped, and bags packed with everything they would need, they set off, eager to glimpse the unknown, make new friends, and forge memories to last an eternity.
 
-It started with a flat tire. They were driving through a desolate stretch of highway in the middle of nowhere when they heard a loud pop. They pulled over to the side of the road and got out to inspect the damage. The tire was shredded, beyond repair. They had a spare, but it was old and worn, and they knew it wouldn't last long.
+Yet, fate had other plans.
 
-They decided to keep driving, hoping to find a gas station or a mechanic who could help them. But as they drove on, the road became more and more desolate. There were no signs of civilization, no other cars on the road. It was as if they had entered a different world, a world where time had stopped and they were the only ones left.
+It began with a tire bursting on a desolate stretch of highway, as though pierced by the unseen hand of malevolent forces. The tire was shredded beyond repair, but they had a spare, worn and old. They knew it wouldn't hold for long.
 
-As night fell, they realized they were lost. They had been driving for hours, but they had no idea where they were or how to get back on track. They were running low on gas, and the spare tire was starting to give out. They were stranded, alone, and afraid.
+Undeterred, they continued, hoping to find a gas station or mechanic. As they journeyed, the world around them seemed to change, the landscape becoming more desolate, and the atmosphere more oppressive. It was as if they had been transported to an ancient, forsaken realm.
 
-That's when they saw the house.
+Night fell, swallowing them in darkness, and they found themselves lost. Despite driving for hours, they were no closer to civilization. Gas was running low, and the spare tire was on the verge of collapse. Fear crept into their hearts.
 
-It was a small, rundown shack on the side of the road. It looked abandoned, but there was a light on inside. They decided to investigate, hoping to find someone who could help them. They parked the van and walked up to the door.
+Then, they saw it. A house.
 
-It was unlocked.
+It was a crumbling, decayed shack on the side of the road. It appeared abandoned, yet a single flickering light burned within. Desperate for aid, they parked the van and approached the door.
 
-They stepped inside, calling out for anyone who might be there. But there was no answer. The house was empty, except for a few pieces of furniture and some old, dusty books. They searched the rooms, but found nothing of use.
+To their surprise, it was unlocked.
 
-As they were about to leave, they heard a noise. It was coming from the basement. They hesitated, but curiosity got the better of them. They walked down the creaky stairs, their hearts pounding in their chests.
+Inside, they called out, but received only silence in response. The house was empty, save for decrepit furniture and dust-covered tomes, filled with indecipherable symbols and long-forgotten languages. Their search yielded nothing helpful.
 
-What they found was a nightmare.
+As they prepared to leave, a sound emerged from the depths of the basement. Their hearts raced, yet curiosity, fueled by a sense of dread, compelled them to descend the creaky stairs.
 
-The basement was filled with cages, each one containing a person. They were dirty, malnourished, and terrified. Some of them were crying, others were screaming. They looked up at the four friends with pleading eyes, begging for help.
+What awaited them was the embodiment of terror.
 
-But before they could do anything, they heard footsteps upstairs. They knew they had to leave, and fast. They ran up the stairs and out the door, jumping into the van and speeding away as fast as they could.
+The basement was filled with cages, each holding a person whose body and mind had been twisted into grotesque forms by some eldritch power. They were filthy, malnourished, and horrified, their eyes clouded with madness. They wept and shrieked, reaching out with misshapen limbs.
 
-They didn't stop until they reached a gas station, where they called the police. They told them everything they had seen, and the police promised to investigate. But when they went back to the house, it was empty. There was no sign of the cages, or the people who had been trapped inside.
+Before the friends could react, footsteps echoed from above. Panic took hold, and they fled up the stairs and out of the house, their minds shattered by the horrors they had witnessed. They sped away, pursued by the unrelenting darkness.
 
-The four friends never spoke of the incident again. They finished their road trip, but it was never the same. They were haunted by the memory of what they had seen, and the knowledge that there were people out there who were capable of such horrors.
+Only when they reached a gas station did they dare stop, and there they contacted the police. They recounted the nightmare they had stumbled upon, and the police promised to investigate. But when they returned to the shack, it had vanished, as though swallowed by the earth itself. There was no trace of the cages or the tormented souls within.
 
-They warned others not to take road trips, not to venture into the unknown. They knew that the world was a dangerous place, and that sometimes, the things you find on the road are better left undiscovered.
+The four friends never spoke of the encounter again. They completed their road trip, but the shadow of their experience darkened every moment. They were haunted by the memory of the house and the knowledge that somewhere, hidden in the forgotten corners of the world, unspeakable horrors still lurked.
+
+They warned others against embarking on road trips, against venturing into the unknown. For they knew all too well that the world was a dangerous place, and that sometimes, the terrors waiting on the road were far worse than anything the human mind could imagine.
