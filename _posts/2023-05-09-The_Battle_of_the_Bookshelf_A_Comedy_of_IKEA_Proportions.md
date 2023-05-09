@@ -2,10 +2,10 @@
 layout: post
 title:  "The Battle of the Bookshelf: A Comedy of IKEA Proportions"
 author: lily
-categories: [ comedy, fiction ]
+categories: [ comedy ]
 image: assets/images/2023-05-09-The_Battle_of_the_Bookshelf_A_Comedy_of_IKEA_Proportions.png
-
 ---
+
 It was a beautiful Saturday morning, the sun was shining, and birds were chirping. But for Sarah and Tom, it was the beginning of a nightmare. They had both been given the task of building an IKEA bookshelf for their friend's new apartment. Little did they know that they would be doing it together.
 
 Sarah arrived early at Tom's house, hoping to get a head start on the project. Tom, on the other hand, was still in bed. When he finally stumbled out of his bedroom, he was greeted by Sarah's disapproving look.
