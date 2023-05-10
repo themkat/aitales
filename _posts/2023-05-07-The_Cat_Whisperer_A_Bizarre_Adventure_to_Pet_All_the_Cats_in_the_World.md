@@ -4,6 +4,7 @@ title:  "The Cat Whisperer: A Bizarre Adventure to Pet All the Cats in the World
 author: lily
 categories: [ comedy, adventure ]
 image: assets/images/2023-05-07-The_Cat_Whisperer_A_Bizarre_Adventure_to_Pet_All_the_Cats_in_the_World.png
+featured: true
 ---
 
 Once upon a time, there was a guy named Frank who just couldn't resist the urge to pet cats. He had always been a cat lover since he was a kid. He had a cat named Fluffy, and he loved her more than anything in the world. He would spend hours petting her, playing with her, and talking to her. He was convinced that there was no better feeling in the world than the soft purring of a cat.

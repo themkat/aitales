@@ -3,7 +3,6 @@ layout: post
 title:  "Unexpected Alliances: A Tale of Unconventional Unity"
 author: lily
 categories: [ young adult, action, crime ]
-featured: true
 image: assets/images/2023-02-26-Unexpected_Alliances_A_Tale_of_Unconventional_Unity.png
 ---
 

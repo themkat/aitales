@@ -3,7 +3,6 @@ layout: post
 title:  "Riding the Range Together: A Tale of True Friendship"
 author: lily
 categories: [ western, feel-good ]
-featured: true
 image: assets/images/2023-02-19-Riding_the_Range_Together_A_Tale_of_True_Friendship.png
 ---
 
