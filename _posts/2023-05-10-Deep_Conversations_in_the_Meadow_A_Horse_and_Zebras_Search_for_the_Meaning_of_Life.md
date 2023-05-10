@@ -4,9 +4,8 @@ title:  "Deep Conversations in the Meadow: A Horse and Zebra's Search for the Me
 author: lily
 categories: [ comedy, animal fiction, philosophical fiction ]
 image: assets/images/2023-05-10-Deep_Conversations_in_the_Meadow_A_Horse_and_Zebras_Search_for_the_Meaning_of_Life.png
-
 ---
-novel.
+
 
 Once upon a time, in a vast green meadow, there stood a horse named Henry and a zebra named Ziggy. They were the best of friends and often spent their afternoons grazing and chatting about life.
 
