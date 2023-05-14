@@ -2,11 +2,9 @@
 layout: post
 title:  "Road to Redemption: A Father's Journey to Reconnect with His Neglected Children"
 author: lily
-categories: [ drama, family, addiction ]
+categories: [ drama ]
 image: assets/images/2023-05-14-Road_to_Redemption_A_Fathers_Journey_to_Reconnect_with_His_Neglected_Children.png
-
 ---
-.
 
 John had just been released from rehab after a long and grueling battle with alcohol and drug addiction. He was determined to turn his life around and make amends for all the wrongs he had done in the past. He had lost his job, his wife, and his kids due to his addiction, and he knew that he had a long road ahead of him to regain their trust and love.
 
