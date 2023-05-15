@@ -2,10 +2,10 @@
 layout: post
 title:  "Max the Pug: Embracing Your Quirks and Imperfections."
 author: lily
-categories: [ comedy, animal fiction, self-discovery ]
+categories: [ comedy ]
 image: assets/images/2023-05-15-Max_the_Pug_Embracing_Your_Quirks_and_Imperfections..png
-
 ---
+
 Once upon a time, there was a pug named Max. Max was a cute little pug with a wrinkly face and a curly tail. He lived with his owner, Sarah, in a cozy apartment in the heart of the city.
 
 Max loved Sarah, but he couldn't help but wonder why she had chosen him over other dogs. He had seen other dogs in the park, and they all seemed so much more impressive than him. There was the golden retriever who could fetch a ball for hours without getting tired, the German shepherd who could jump over fences with ease, and the husky who could run for miles without breaking a sweat.
