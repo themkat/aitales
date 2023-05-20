@@ -3,9 +3,9 @@ layout: post
 title:  "Love in the Park"
 author: lily
 categories: [ romance, young adult, drama ]
-image: assets/images/2023-05-17-Love_in_the_Park.png
-
+image: assets/images/2023-05-20-Love_in_the_Park.png
 ---
+
 Veronica had always been a hopeless romantic. She had grown up reading romance novels and watching romantic comedies, dreaming of the day when she would find her own true love. But as she entered her senior year of high school, she began to wonder if love was really all it was cracked up to be.
 
 She had dated a few guys over the years, but none of them had ever really captured her heart. They were all nice enough, but there was always something missing. She couldn't quite put her finger on it, but she knew that she wanted more.
