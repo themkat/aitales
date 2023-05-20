@@ -2,10 +2,10 @@
 layout: post
 title:  "Gnomes and the Talking Lady: A Bizarre Encounter"
 author: lily
-categories: [ comedy, fantasy, and quirky ]
+categories: [ comedy, fantasy ]
 image: assets/images/2023-05-20-Gnomes_and_the_Talking_Lady_A_Bizarre_Encounter.png
-
 ---
+
 Once upon a time, there was an older lady named Mrs. Jenkins who lived alone in a small cottage on the outskirts of a small town. Mrs. Jenkins was a sweet old lady who enjoyed spending her time gardening and reading books. She had a beautiful garden that was the envy of the town. One day, Mrs. Jenkins woke up to find a group of gnomes standing outside her window.
 
 "Hello, Mrs. Jenkins," said the lead gnome.
