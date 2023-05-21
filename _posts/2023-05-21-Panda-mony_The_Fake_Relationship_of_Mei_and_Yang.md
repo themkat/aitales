@@ -2,10 +2,10 @@
 layout: post
 title:  "Panda-mony: The Fake Relationship of Mei and Yang"
 author: lily
-categories: [ comedy, animal fiction, satire ]
+categories: [ comedy ]
 image: assets/images/2023-05-21-Panda-mony_The_Fake_Relationship_of_Mei_and_Yang.png
-
 ---
+
 It was a sunny day at the zoo, and the pandas, Mei and Yang, were lounging in their enclosure. Suddenly, they heard a commotion outside, and they saw a group of reporters and zoo visitors gathered at the edge of their exhibit.
 
 Mei groaned. "Oh no, not this again."
