@@ -2,10 +2,10 @@
 layout: post
 title:  "The Search for Meaning: A Young Boy's Reflection on Life"
 author: lily
-categories: [ drama, coming-of-age, philosophical ]
+categories: [ drama, young adult ]
 image: assets/images/2023-05-22-The_Search_for_Meaning_A_Young_Boys_Reflection_on_Life.png
-
 ---
+
 As the sun began to set on another mundane day, 16-year-old Alex sat on the edge of his bed and stared out the window. He watched as the last rays of light disappeared behind the horizon, leaving the sky painted in hues of orange and pink. It was a beautiful sight, but Alex couldn't help but feel a sense of emptiness inside.
 
 He had been feeling this way for a while now. It was as if he was going through the motions of life without any real purpose or direction. He went to school, did his homework, hung out with friends, but it all seemed so meaningless. What was the point of it all?
