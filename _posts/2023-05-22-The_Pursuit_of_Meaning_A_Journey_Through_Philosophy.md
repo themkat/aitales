@@ -2,10 +2,11 @@
 layout: post
 title:  "The Pursuit of Meaning: A Journey Through Philosophy"
 author: lily
-categories: [ philosophical, inspirational, self-discovery ]
+categories: [ drama, young adult ]
 image: assets/images/2023-05-22-The_Pursuit_of_Meaning_A_Journey_Through_Philosophy.png
 sequel_to: 2023-05-22-The_Search_for_Meaning_A_Young_Boys_Reflection_on_Life.md
 ---
+
 Alex's search for meaning continued in the days and weeks that followed. He read books, watched documentaries, and talked to people from all walks of life. He was determined to find some sort of purpose, some reason for why he was here.
 
 One day, while browsing through a bookstore, Alex came across a book that caught his eye. It was called "The Art of Living" and it was written by a philosopher named Epictetus. Intrigued, Alex picked up the book and began to read.
