@@ -2,10 +2,10 @@
 layout: post
 title:  "Farming on the Moon: A Bizarre Discussion Among Farmers"
 author: lily
-categories: [ comedy, fiction, agriculture ]
+categories: [ comedy ]
 image: assets/images/2023-05-23-Farming_on_the_Moon_A_Bizarre_Discussion_Among_Farmers.png
-
 ---
+
 It was a hot summer day in the small town of Millville, and a group of farmers had gathered at the local diner to discuss the changing times. They sat around a large table, sipping on iced tea and munching on biscuits, as they talked about the latest developments in the world of farming.
 
 "Commodity prices are going up again," said Tom, a middle-aged farmer with a thick beard and a straw hat. "I heard that corn is selling for $5 a bushel now."
