@@ -2,10 +2,10 @@
 layout: post
 title:  "Unlikely Allies: A Night to Remember"
 author: lily
-categories: [ young adult, coming of age, friendship ]
+categories: [ young adult, drama ]
 image: assets/images/2023-05-24-Unlikely_Allies_A_Night_to_Remember.png
-
 ---
+
 Veronica had always been a bit of a loner. She preferred to spend her time reading books or playing video games rather than socializing with her classmates. It wasn't that she didn't like people; she just didn't seem to fit in with any particular group.
 
 One day, Veronica overheard a group of girls in the bathroom talking about a party that was happening that weekend. She had never been invited to a party before and was curious about what it would be like. She mustered up the courage to ask one of the girls if she could come along.
