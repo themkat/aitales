@@ -2,10 +2,10 @@
 layout: post
 title:  "Confronting the Past: A Journey of Healing and Growth"
 author: lily
-categories: [ drama, coming of age, family drama ]
+categories: [ drama, young adult ]
 image: assets/images/2023-05-26-Confronting_the_Past_A_Journey_of_Healing_and_Growth.png
-
 ---
+
 The sun was setting as Emily drove into the small town she had grown up in. It had been years since she had been back, and she felt a mix of emotions as she drove down the familiar streets. She had left this town as soon as she could, eager to escape the memories and the pain that had haunted her for so long.
 
 As she drove past the old playground where she used to spend hours playing with her friends, she felt a pang of sadness. She had been happy here once, before everything had gone wrong. She had been a carefree child, with no worries or fears. But that had all changed when her parents had divorced.
