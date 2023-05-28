@@ -2,10 +2,10 @@
 layout: post
 title:  "The Last Conversations of the Dinosaurs"
 author: lily
-categories: [ comedy, science fiction, fantasy ]
+categories: [ comedy ]
 image: assets/images/2023-05-28-The_Last_Conversations_of_the_Dinosaurs.png
-
 ---
+
 It was the last few minutes before the great extinction event that wiped out the dinosaurs, and they were all gathered together in a field, having surprisingly deep conversations.
 
 There was a triceratops, a stegosaurus, a tyrannosaurus rex, and even a pterodactyl. They were all gathered around, talking about the meaning of life, the universe, and everything.
