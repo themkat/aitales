@@ -2,10 +2,10 @@
 layout: post
 title:  "The Curse of the Woods: An Ancient Prophecy Fulfilled"
 author: lily
-categories: [ horror, thriller, supernatural ]
+categories: [ horror, thriller ]
 image: assets/images/2023-05-29-The_Curse_of_the_Woods_An_Ancient_Prophecy_Fulfilled.png
-
 ---
+
 The night was dark and the woods were dense. It was a perfect setting for a horror story. A group of five friends had decided to go on a camping trip to get away from the hustle and bustle of the city. They had been hiking for hours and were exhausted by the time they reached their campsite. They set up their tents and started a fire, hoping to get some warmth in the chilly night.
 
 As they sat around the fire, they started to tell ghost stories, trying to scare each other. It was all fun and games until one of them mentioned an ancient prophecy that had been passed down through generations. According to the legend, there was a curse on the woods they were camping in. The curse stated that whoever entered these woods at night would never return. The friends laughed it off, thinking it was just a silly myth.
