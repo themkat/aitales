@@ -2,10 +2,10 @@
 layout: post
 title:  "Finding Self-Worth: Hans's Journey Through Betrayal"
 author: lily
-categories: [ young adult, drama, music ]
+categories: [ young adult, drama ]
 image: assets/images/2023-05-31-Finding_Self-Worth_Hanss_Journey_Through_Betrayal.png
-
 ---
+
 Hans had always felt like an outcast. Growing up, he had never quite fit in with the other kids in his small town. He was quiet, introverted, and had a love for reading and learning that wasn't shared by his peers. But even though he felt like he didn't belong, he always tried his best to be kind and helpful to those around him.
 
 It wasn't until he started high school that he finally found a group of friends who he felt like he had a real connection with. They were all misfits in their own way, and they bonded over their shared love of music and art. Together, they formed a band and spent all their free time practicing and performing at local shows.
