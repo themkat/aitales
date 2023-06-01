@@ -2,10 +2,10 @@
 layout: post
 title:  "Unity in the Kingdom"
 author: lily
-categories: [ fantasy, adventure, action ]
+categories: [ fantasy ]
 image: assets/images/2023-06-01-Unity_in_the_Kingdom.png
-
 ---
+
 Once upon a time in a distant land, where magic still thrived and ancient creatures roamed the forests, an elf named Eldrin sat perched atop a tree branch, deep in thought. As he looked out into the kingdom, he could see the trees turning crimson and gold, a reminder that the seasons were changing. But beyond the natural cycle of life, something else was changing.
 
 Eldrin had lived for centuries, and he had seen the kingdom go through many trials and tribulations. He had watched as wars raged, alliances were broken, and the power balance shifted. But what worried him most was the change in people's hearts.
