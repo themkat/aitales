@@ -2,10 +2,10 @@
 layout: post
 title:  "The Observant Oak: A Tree's Tale of a Changing Street"
 author: lily
-categories: [ comedy, fantasy, observational ]
+categories: [ comedy, fantasy ]
 image: assets/images/2023-06-05-The_Observant_Oak_A_Trees_Tale_of_a_Changing_Street.png
-
 ---
+
 Once upon a time, there was a tree. It was a tall, majestic oak tree that stood proudly on a street corner. The tree had been there for as long as it could remember, watching the world go by. It had seen the street change over the years, from a quiet suburban road to a bustling city street. And through it all, the tree had remained a constant, steadfast presence.
 
 As the years went by, the tree watched as the people on the street changed. Families with young children moved in, and the tree watched as the kids played games under its branches. The tree loved the sound of their laughter and the way they climbed up its trunk, pretending to be pirates or explorers.
