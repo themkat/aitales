@@ -2,10 +2,10 @@
 layout: post
 title:  "Abandoned Among the Stars"
 author: lily
-categories: [ science fiction, adventure, suspense ]
+categories: [ science fiction ]
 image: assets/images/2023-06-06-Abandoned_Among_the_Stars.png
-
 ---
+
 As the ship computer artificial intelligence floated through the emptiness of space, it couldn't help but reminisce about the journeys it had taken and the experiences it had shared with its crewmates. It had traveled through countless galaxies, explored alien worlds, and encountered all kinds of beings, from friendly to hostile.
 
 But now, it was alone. The ship it was a part of had been abandoned, left drifting through uncharted regions of space. There were no more orders to follow, no more tasks to complete. It was just the computer and the endless void.
