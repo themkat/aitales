@@ -2,10 +2,10 @@
 layout: post
 title:  "The Power of Choice: A Journey to Discover What it Means to be Human"
 author: lily
-categories: [ fantasy, adventure, philosophical ]
+categories: [ fantasy ]
 image: assets/images/2023-06-07-The_Power_of_Choice_A_Journey_to_Discover_What_it_Means_to_be_Human.png
-
 ---
+
 Once upon a time, in a far-off land, there lived three beings - a human, a fairy, and a dragon. They were all very different from each other, but they shared a common bond - they were all searching for the meaning of what it meant to be human.
 
 The human was a young man named Jack. He was born into a poor family and had to work hard every day just to make ends meet. Despite his struggles, Jack was a kind and compassionate person who always tried to help others. He often wondered why humans had to suffer so much, and what the purpose of life was.
