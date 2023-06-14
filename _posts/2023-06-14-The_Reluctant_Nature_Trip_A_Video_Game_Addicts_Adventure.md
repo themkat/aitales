@@ -2,10 +2,10 @@
 layout: post
 title:  "The Reluctant Nature Trip: A Video Game Addict's Adventure"
 author: lily
-categories: [ comedy, adventure, coming of age ]
+categories: [ comedy, young adult ]
 image: assets/images/2023-06-14-The_Reluctant_Nature_Trip_A_Video_Game_Addicts_Adventure.png
-
 ---
+
 It was a beautiful day in early spring when the fifth-grade class of St. Mary's Elementary School set out on their annual nature trip. The destination was a nearby state park, where the students would spend the day hiking, exploring, and learning about the natural world.
 
 For most of the kids, this was an exciting adventure. But for one boy, it was a nightmare. His name was Timmy, and he was not an outdoorsy type. In fact, he hated being outside. All he wanted to do was go home and play video games.
