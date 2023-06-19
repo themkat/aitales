@@ -2,10 +2,10 @@
 layout: post
 title:  "The Prophecy of the Forest: A Tale of Trees and Tree People"
 author: lily
-categories: [ fantasy, adventure, prophecy ]
+categories: [ fantasy ]
 image: assets/images/2023-06-19-The_Prophecy_of_the_Forest_A_Tale_of_Trees_and_Tree_People.png
-
 ---
+
 The trees and the native tree people were gathered together in the heart of the forest, deep in conversation. The topic of discussion was an ancient prophecy that had been passed down through generations. The prophecy spoke of a great disaster that would befall the forest, and the trees and the tree people were worried.
 
 "We must prepare for the worst," said the oldest tree, a towering oak that had been around for centuries. "The prophecy may not happen in our lifetimes, but we must be ready in case it does."
