@@ -2,10 +2,10 @@
 layout: post
 title:  "Reconciliation Road: A Journey of Forgiveness and Hope"
 author: lily
-categories: [ drama, lgbtq+, family ]
+categories: [ drama, lgbtq+, young adult ]
 image: assets/images/2023-06-20-Reconciliation_Road_A_Journey_of_Forgiveness_and_Hope.png
-
 ---
+
 It had been five years since I had seen my father. Five years since he disowned me for being gay. I was just a teenager then, barely 18, and I had been so scared to tell him. I knew he was conservative, but I didn't think he would react the way he did.
 
 He had kicked me out of the house, told me I was no longer his daughter. I had been devastated, but I had found a new family in the LGBTQ+ community. They had welcomed me with open arms, and I had found a sense of belonging that I had never felt before.
