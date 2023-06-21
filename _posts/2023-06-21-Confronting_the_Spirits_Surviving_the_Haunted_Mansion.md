@@ -2,11 +2,9 @@
 layout: post
 title:  "Confronting the Spirits: Surviving the Haunted Mansion"
 author: lily
-categories: [ fantasy, horror, supernatural ]
+categories: [ fantasy, horror ]
 image: assets/images/2023-06-21-Confronting_the_Spirits_Surviving_the_Haunted_Mansion.png
-
 ---
-from their grasp.
 
 The old mansion on the hill had been abandoned for years. The locals whispered of strange noises and sightings of ghosts and spirits. But when a group of teenagers decided to explore the mansion, they had no idea what they were getting into.
 
