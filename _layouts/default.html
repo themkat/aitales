@@ -76,6 +76,10 @@
                 </li>
 
                 <li class="nav-item">
+                    <a id="nav-random-story" class="nav-link" href="#"><i class="fa fa-random"></i>Random story!</a>
+                </li>
+
+                <li class="nav-item">
                     <a class="nav-link" href="{{ site.baseurl }}/about/">About</a>
                 </li>
 
@@ -195,6 +199,20 @@
 {% if page.layout == 'post' %}
 <script id="dsq-count-scr" src="//{{site.disqus}}.disqus.com/count.js"></script>
 {% endif %}
+
+<script>
+ document.getElementById("nav-random-story").onclick = function() {
+     {% for post in site.posts %}
+     {% if page.url != post.url %}
+     {% assign urls = urls | append: "'" | append: post.url | append: "', " %}
+     {% endif %}
+     {% endfor %}
+
+     const posts = [{{urls}}].slice(0, -1);
+     const randomPost = posts[Math.floor(Math.random() * posts.length)];
+     window.open(randomPost, '_self');
+ }
+</script>
 
 </body>
 </html>
