@@ -2,10 +2,11 @@
 layout: post
 title:  "Guardians of the Forest: A Battle for Home"
 author: lily
-categories: [ fantasy, adventure, environmental fiction ]
+categories: [ fantasy ]
 image: assets/images/2023-06-22-Guardians_of_the_Forest_A_Battle_for_Home.png
 sequel_to: 2023-06-19-The_Prophecy_of_the_Forest_A_Tale_of_Trees_and_Tree_People.md
 ---
+
 Years had passed since the trees and the tree people had prepared for the prophecy. The forest had remained peaceful, and the humans who had helped them had become trusted allies. But the memory of the prophecy still lingered, and the trees and the tree people remained vigilant, always watching for signs of danger.
 
 One day, a group of humans entered the forest once again. But this time, they were not there to help. They were there to destroy.
