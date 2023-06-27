@@ -1,0 +1,27 @@
+name: Updates story generator versions in Github Actions
+
+# The Github Actions jobs (generate_story.yml and sequelize_story.yml) have
+#  version numbers of the story generator program hardcoded. The job below
+#  will run each time the docker image for the story  generator is pushed to registry.
+#  Then it will update these versions automatically going forward :)
+
+on:
+  registry_package:
+    types: [published]
+
+jobs:
+  update-versions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update the versions
+        run: |
+          ./.github/scripts/update_story_generator_version.sh $GITHUB_SHA
+      - name: Push updated versions
+        run: |
+          git config --global user.name 'actions (automatic)'
+          git config --global user.email 'action@github.com'
+          git add .github/workflows/generate_story.yml
+          git add .github/workflows/sequelize_story.yml
+          git commit -m '[AUTO] Updated story generator version'
+          git push
