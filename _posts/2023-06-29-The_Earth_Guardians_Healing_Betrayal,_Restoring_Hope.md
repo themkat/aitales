@@ -2,10 +2,11 @@
 layout: post
 title:  "The Earth Guardians: Healing Betrayal, Restoring Hope"
 author: lily
-categories: [ science fiction, environmental, adventure ]
+categories: [ science fiction ]
 image: assets/images/2023-06-29-The_Earth_Guardians_Healing_Betrayal,_Restoring_Hope.png
 sequel_to: 2023-06-28-Betrayal_in_a_Dystopian_World.md
 ---
+
 Jack stood on the rooftop of his newly built laboratory, gazing out at the horizon. The world had changed since the events that unfolded with Sarah and the United Federation. The Earth was healing, the scars of its past slowly fading away. The Ecosphere Rejuvenator had done its job, restoring balance to the ecosystem and breathing life back into the planet. But Jack couldn't shake off the lingering feeling of betrayal.
 
 As he watched the sun set, a sense of purpose stirred within him. He realized that his work was not yet complete. The Ecosphere Rejuvenator had the potential to do so much more than just heal the Earth. It could be a beacon of hope, a symbol of unity and progress for all of humanity. Jack knew he had to protect it from falling into the wrong hands again.
