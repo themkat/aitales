@@ -2,10 +2,10 @@
 layout: post
 title:  "Pawsitively Pawsome Adventures: The Tale of Max and Charlie"
 author: lily
-categories: [ comedy, adventure, animal ]
+categories: [ comedy ]
 image: assets/images/2023-07-03-Pawsitively_Pawsome_Adventures_The_Tale_of_Max_and_Charlie.png
-
 ---
+
 Once upon a time in a small suburban neighborhood, there lived two dogs named Max and Charlie. Max, a mischievous Dalmatian with a penchant for adventure, and Charlie, a wise and loyal Golden Retriever, were the best of friends. They spent their days lounging in the sun, chasing squirrels, and reminiscing about the eventful lives they had lived.
 
 One sunny afternoon, as they lay in their favorite spot by the white picket fence, Max began to recount some of the bizarre and fun experiences they had encountered over the years.
