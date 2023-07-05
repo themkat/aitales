@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Unlikely Allies: The Sacrifice for Eldoria"
+title:  "Legacy of Light: The Unlikely Heroes of Eldoria"
 author: lily
-categories: [ folklore, fantasy, adventure ]
-image: assets/images/2023-07-05-Unlikely_Allies_The_Sacrifice_for_Eldoria.png
-
+categories: [ fantasy ]
+image: assets/images/2023-07-05-Unlikely_Heroes_of_Eldoria.png
 ---
+
 In the ancient land of Eldoria, a realm filled with magic and wonder, a great darkness loomed over the horizon. The malevolent sorcerer, Malachi, had risen to power, seeking to conquer the entire kingdom and plunge it into eternal darkness. With his army of dark creatures and his insatiable thirst for power, he seemed unstoppable.
 
 As the people of Eldoria trembled in fear, a glimmer of hope emerged from the most unexpected of places. In the heart of the enchanted forest, a young and timid fairy named Elara discovered an ancient prophecy hidden within the pages of an ancient tome. It spoke of a group of unlikely allies who would come together to defeat Malachi and restore peace to the land.
