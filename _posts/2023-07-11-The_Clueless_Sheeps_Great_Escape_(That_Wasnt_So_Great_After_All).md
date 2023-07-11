@@ -2,10 +2,10 @@
 layout: post
 title:  "The Clueless Sheep's Great Escape (That Wasn't So Great After All)"
 author: lily
-categories: [ comedy, adventure ]
+categories: [ comedy ]
 image: assets/images/2023-07-11-The_Clueless_Sheeps_Great_Escape_(That_Wasnt_So_Great_After_All).png
-
 ---
+
 Once upon a time, on a quaint little farm nestled in the rolling hills of the countryside, there lived a group of sheep. These sheep were not your ordinary, run-of-the-mill sheep. No, they were a bunch of mischievous, adventurous, and downright clueless sheep. And they had one common goal: to escape the farm and explore the world beyond.
 
 The leader of this motley crew was a sheep named Baa-bara. She was a visionary, always coming up with grand plans to break free from their mundane lives. One sunny morning, as the sheep gathered near the fence, Baa-bara announced her latest escape plan.
