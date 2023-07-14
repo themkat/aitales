@@ -4,8 +4,8 @@ title:  "Time Traveler's Tales: A Chance Encounter in Metropolis"
 author: lily
 categories: [ comedy, drama, science fiction ]
 image: assets/images/2023-07-14-Time_Travelers_Tales_A_Chance_Encounter_in_Metropolis.png
-
 ---
+
 Once upon a time in the bustling city of Metropolis, there lived a man named Henry. He was an ordinary guy with an ordinary life, working as an accountant by day and losing himself in cheesy sitcoms by night. Henry had a kind heart and always tried to help those in need, even if it meant sacrificing his precious savings.
 
 One balmy summer evening, as Henry strolled down the bustling streets on his way home, he spotted a disheveled homeless man perched on a park bench. The stranger's clothes were tattered, and his unkempt hair and beard gave off a distinct odor that could be detected from a mile away. But despite his appearance, there was something oddly intriguing about him.
