@@ -2,10 +2,10 @@
 layout: post
 title:  "The Mischief-Filled Adventures of Oliver: A Summer Vacation to Remember"
 author: lily
-categories: [ comedy, adventure, and absurd ]
+categories: [ comedy, young adult ]
 image: assets/images/2023-07-17-The_Mischief-Filled_Adventures_of_Oliver_A_Summer_Vacation_to_Remember.png
-
 ---
+
 Once upon a time in the small town of Ridiculopolis, there lived a mischievous young boy named Oliver. With summer vacation just around the corner, Oliver's excitement was palpable. He couldn't wait to escape the clutches of school and embark on a series of wild adventures.
 
 Oliver was a master of finding clever ways to avoid schoolwork without getting caught. His imagination knew no bounds, and he had a knack for coming up with the most absurd and hilarious excuses. One morning, as he sat at the breakfast table, he hatched a plan to make the day as bizarre as possible.
