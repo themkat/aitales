@@ -2,11 +2,9 @@
 layout: post
 title:  "The Divine Comedy of Reverend Bob"
 author: lily
-categories: [ comedy, satire, adventure ]
+categories: [ comedy, satire ]
 image: assets/images/2023-07-22-The_Divine_Comedy_of_Reverend_Bob.png
-
 ---
-Title: The Divine Misadventures of Reverend Bob
 
 Once upon a time in the small town of Quirktown, there lived a man named Reverend Bob. He was a well-intentioned, albeit slightly eccentric, individual who had dedicated his life to spreading the word of God. However, little did he know that his journey would take him on a hilarious and eye-opening adventure that would challenge his beliefs in the most unexpected ways.
 
