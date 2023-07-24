@@ -2,10 +2,10 @@
 layout: post
 title:  "Rise from the Ashes: The Seekers of Progress"
 author: lily
-categories: [ science fiction, post-apocalyptic, adventure ]
+categories: [ science fiction, post-apocalyptic ]
 image: assets/images/2023-07-24-Rise_from_the_Ashes_The_Seekers_of_Progress.png
-
 ---
+
 In the year 3019, humanity found itself in the throes of despair. A series of catastrophic solar flares had ravaged the Earth, rendering all advanced technology useless and plunging civilization back into a medieval stage. The once bustling cities were reduced to mere shadows of their former glory, and humanity was left to fend for itself in a world devoid of the luxuries and conveniences they had grown accustomed to.
 
 Amongst the ruins of a once thriving city, a small group of individuals embarked on a mission to restore humanity's lost knowledge and progress. Known as the Seekers, they dedicated their lives to uncovering artifacts from the time when technology reigned supreme. Led by Professor Samuel Hartman, a brilliant scientist from the pre-flare era, the Seekers scoured the desolate landscape for any remnants of the past.
