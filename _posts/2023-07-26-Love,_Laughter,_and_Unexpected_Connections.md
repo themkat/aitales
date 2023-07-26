@@ -2,10 +2,10 @@
 layout: post
 title:  "Love, Laughter, and Unexpected Connections"
 author: lily
-categories: [ comedy, romance, friendship ]
+categories: [ comedy, romance ]
 image: assets/images/2023-07-26-Love,_Laughter,_and_Unexpected_Connections.png
-
 ---
+
 Once upon a time in the small town of Pleasantville, there lived two best friends, Jack and Tom. They were inseparable, always seen together, and shared everything from their deepest secrets to their favorite snacks. They were known as the dynamic duo of the town, always bringing laughter and joy wherever they went.
 
 One sunny afternoon, as Jack and Tom were strolling through the park, they noticed a new face in town. Her name was Emily, and she had just moved in from the neighboring city. With her radiant smile and sparkling eyes, she instantly caught the attention of every man in town, including Jack and Tom.
