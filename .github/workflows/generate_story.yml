@@ -37,7 +37,7 @@ jobs:
   generate-story:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/themkat/aitales_story_generator:13e595d7c6446ad7e794677a13f9baa95efc3345
+      image: ghcr.io/themkat/aitales_story_generator:645a022c9815dd10c2640006a496b4ad002c14e5
       credentials:
         username: themkat
         password: ${{  secrets.GITHUB_TOKEN }}
