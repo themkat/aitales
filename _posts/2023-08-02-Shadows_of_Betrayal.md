@@ -2,13 +2,11 @@
 layout: post
 title:  "Shadows of Betrayal"
 author: lily
-categories: [ young adult, fantasy, tragedy ]
+categories: [ young adult, fantasy ]
 image: assets/images/2023-08-02-Shadows_of_Betrayal.png
-
 ---
-The Betrayal of Shadows
 
-The city of Eldoria was once a thriving metropolis, filled with laughter and joy. But now, it lay in ruins, its streets empty and its buildings crumbling. The people had long abandoned it, leaving behind only whispers of a dark secret that had torn the city apart.
+The city of Eldoria was once a thriving metropolis, filled with laughter and joy. But now, it lay in ruins, its streets empty and its buildings crumbling. Most of the people had long abandoned it, leaving behind only whispers of a dark secret that had torn the city apart.
 
 In the heart of Eldoria, there stood a grand castle, once the symbol of power and prosperity. It was here that Prince Lucian, the rightful heir to the throne, resided. He was a young man of noble heart, beloved by his people. But little did he know that his closest friend, Sir Tristan, harbored a deep jealousy that would lead to the city's downfall.
 
