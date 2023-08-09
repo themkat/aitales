@@ -143,7 +143,7 @@ pub async fn do_chat_request(
         .expect("Could not create http client");
 
     let request = OpenAiChatRequest {
-        model: "gpt-3.5-turbo".to_string(),
+        model: "gpt-4".to_string(),
         messages: earlier_messages
             .iter()
             .enumerate()
