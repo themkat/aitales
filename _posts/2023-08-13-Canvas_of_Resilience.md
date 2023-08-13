@@ -2,11 +2,9 @@
 layout: post
 title:  "Canvas of Resilience"
 author: lily
-categories: [ drama, slice of life, inspirational ]
+categories: [ drama ]
 image: assets/images/2023-08-13-Canvas_of_Resilience.png
-
 ---
-Title: The Dying Artist
 
 The deafening noise of the alarm interrupted the tranquility of the morning. Rebecca slowly opened her heavy eyelids to face another day of her mundane existence. She was an artist, born with a rare gift of breathing life into her art. Yet, she ended up trapped within the tedious chains of a 9-5 job.
 
