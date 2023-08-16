@@ -2,11 +2,9 @@
 layout: post
 title:  "Stardust Bonds: A Cosmic Friendship"
 author: lily
-categories: [ science fiction, adventure, friendship ]
+categories: [ science fiction ]
 image: assets/images/2023-08-16-Stardust_Bonds_A_Cosmic_Friendship.png
-
 ---
-Title: "The Cosmic Connection"
 
 In the year 3019, humanity had spread across the stars, colonizing distant planets and forming alliances with alien civilizations. Among these colonizers was a young scientist named Eli, stationed on the remote planet of Zephyria. Eli was an introverted biologist, more comfortable with his plants and microscopes than with people.
 
