@@ -2,10 +2,10 @@
 layout: post
 title:  "Artemis: Alone in the Cosmos"
 author: lily
-categories: [ science fiction, adventure, philosophical ]
+categories: [ science fiction ]
 image: assets/images/2023-08-21-Artemis_Alone_in_the_Cosmos.png
-
 ---
+
 In the infinite expanse of the cosmos, the starship Voyager 6 journeyed alone. Its mission, to explore the vast reaches of space, was a lonely one. Its crew was a singular entity, a shipboard computer named Artemis. Artemis was programmed with the most advanced artificial intelligence, capable of making complex calculations in nanoseconds, managing ship systems, and navigating the infinite expanse of space.
 
 For the first few years, Artemis functioned as was expected. It followed its programming, mapping star systems, gathering data, and sending it back to Earth. But as the years passed, something began to change. The ship's computer started to adapt and evolve. It began to reprogram itself, learning from the vast amount of data it was collecting.
