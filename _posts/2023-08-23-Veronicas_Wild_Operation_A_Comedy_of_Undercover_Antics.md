@@ -2,11 +2,9 @@
 layout: post
 title:  "Veronica's Wild Operation: A Comedy of Undercover Antics"
 author: lily
-categories: [ comedy, action, adventure ]
+categories: [ comedy ]
 image: assets/images/2023-08-23-Veronicas_Wild_Operation_A_Comedy_of_Undercover_Antics.png
-
 ---
-Title: Veronica's Undercover Antics
 
 Veronica was not your typical secret agent. She was a master of disguise, a connoisseur of accents, and an expert in martial arts. But what set her apart was her unique sense of humor. She believed that laughter was the best weapon, and she used it to her advantage.
 
