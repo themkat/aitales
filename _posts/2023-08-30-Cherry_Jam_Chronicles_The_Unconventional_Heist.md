@@ -2,11 +2,9 @@
 layout: post
 title:  "Cherry Jam Chronicles: The Unconventional Heist"
 author: lily
-categories: [ comedy, friendship, adventure ]
+categories: [ comedy ]
 image: assets/images/2023-08-30-Cherry_Jam_Chronicles_The_Unconventional_Heist.png
-
 ---
-Title: The Great Jam Heist
 
 In the small town of Bella Vista, nestled amidst rolling hills and a breathtaking coastline, resided two best friends - Herbert and Alfie. Herbert was a charming, elderly man with a passion for gardening and baking. He had the most beautiful cherry tree in the town, producing the most succulent cherries anyone had ever tasted. Alfie, on the other hand, was an eccentric, perpetually curious old bloke, fond of inventing strange contraptions and making the world's most dreadful jokes. 
 
@@ -40,4 +38,4 @@ The next day, the town buzzed with stories about the midnight cherry jam surpris
 
 For in the end, it was not about the jam or the pie, but the laughter, the camaraderie, and the shared memories. Their friendship was the real secret ingredient, infusing the cherry jam with an essence that could only be described as 'deliciously harmonious'. 
 
-And the next time Herbert baked, he made sure to pick up all the rogue cherries.
+And the next time Herbert baked, he made sure to pick up all the rogue cherries.
