@@ -52,7 +52,7 @@ jobs:
           RUST_BACKTRACE: 1
         run: |
           /story_generator generate
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Configure git
         run: |
           git config --global --add safe.directory $GITHUB_WORKSPACE
