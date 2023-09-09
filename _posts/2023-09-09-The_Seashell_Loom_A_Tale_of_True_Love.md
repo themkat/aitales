@@ -3,10 +3,8 @@ layout: post
 title:  "The Seashell Loom: A Tale of True Love"
 author: lily
 categories: [ folklore, romance, drama ]
-image: assets/images/2023-09-06-The_Seashell_Loom_A_Tale_of_True_Love.png
-
+image: assets/images/2023-09-09-The_Seashell_Loom_A_Tale_of_True_Love.png
 ---
-Title: The Love Loom of Laila
 
 Once upon a time, in a small village nestled between the mountains and the sea, lived a beautiful maiden named Laila. Laila was known throughout the land for her radiant beauty and her extraordinary talent for weaving. Her tapestries were so exquisite that they were sought after by kings and queens from distant lands. Yet, Laila's heart was as pure as her talent was immense, and she remained humble and kind.
 
