@@ -4,9 +4,7 @@ title:  "Unmasking Karl: The Deception Unveiled"
 author: lily
 categories: [ action, mystery, thriller ]
 image: assets/images/2023-09-13-Unmasking_Karl_The_Deception_Unveiled.png
-
 ---
-Title: The Mask of Karl
 
 In the heart of the bustling city, a mysterious man named Karl had established his reign. He was known for his charismatic charm, his alluring aura, and his uncanny ability to make everything difficult for our main characters, Sarah and Jake.
 
