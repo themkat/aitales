@@ -2,11 +2,9 @@
 layout: post
 title:  "Love Beyond Realms: The Ethereal Connection"
 author: lily
-categories: [ science fiction, romance, supernatural ]
-image: assets/images/2023-09-20-Love_Beyond_Realms_The_Ethereal_Connection.png
-
+categories: [ science fiction, romance ]
+image: assets/images/2023-09-21-Love_Beyond_Realms_The_Ethereal_Connection.png
 ---
-Title: Spectral Love
 
 In the year 2099, mankind had not only conquered the vast expanses of outer space but had also ventured into the less tangible realm of the supernatural. The once dismissed existence of spirits was now a well-accepted fact, and the world was teetering on the brink of a new age of spiritual discovery. 
 
