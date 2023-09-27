@@ -2,11 +2,9 @@
 layout: post
 title:  "Kneaded Love: A Bumblebee Romance"
 author: lily
-categories: [ romantic comedy, slice of life, drama ]
+categories: [ romantic comedy, drama, romance, drama ]
 image: assets/images/2023-09-27-Kneaded_Love_A_Bumblebee_Romance.png
-
 ---
-Title: The Love Triangle Tango
 
 Once upon a time, in the small town of Bumblebee, lived a charming young woman named Lily. She was the town's librarian, known for her radiant smile and infectious laughter. Lily was in love with the town's baker, a strapping man named Ben. Ben was a gentle soul who baked the most delicious pastries and had a heart as warm as his freshly baked bread. 
 
