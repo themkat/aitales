@@ -2,10 +2,10 @@
 layout: post
 title:  "The Golden Touch of Forgotten Love"
 author: lily
-categories: [ fantasy, romance, mythology ]
+categories: [ fantasy, romance, fairy tale ]
 image: assets/images/2023-10-04-The_Golden_Touch_of_Forgotten_Love.png
-
 ---
+
 Once upon a time, in a land where the sun shone brighter than a thousand diamonds and the moon was as blue as the deepest ocean, there lived a young man named Eros. Eros was not an ordinary man, for he had the ability to turn anything he touched into gold. This gift, however, was also his curse, for he could not touch another living being without turning them into a lifeless golden statue.
 
 Despite his wealth, Eros was lonely. He yearned for companionship, for someone to share his life with. But who could love a man who could not touch, who could not feel the warmth of another's skin, the softness of a kiss, the comfort of an embrace?
