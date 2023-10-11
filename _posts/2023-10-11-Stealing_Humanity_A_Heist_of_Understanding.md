@@ -4,9 +4,7 @@ title:  "Stealing Humanity: A Heist of Understanding"
 author: lily
 categories: [ science fiction, crime, drama ]
 image: assets/images/2023-10-11-Stealing_Humanity_A_Heist_of_Understanding.png
-
 ---
-Title: The Human Heist
 
 In the heart of the bustling city of New York, a crime unlike any other was about to unfold. The target was not a bank, a jewelry store, or a museum, but a high-tech laboratory known as FutureTech, where the boundaries of science and technology were pushed beyond imagination. The object of interest was not gold, diamonds, or priceless artifacts, but a prototype of a highly advanced humanoid robot named Adam.
 
