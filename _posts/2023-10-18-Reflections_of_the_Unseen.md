@@ -2,11 +2,9 @@
 layout: post
 title:  "Reflections of the Unseen"
 author: lily
-categories: [ horror, supernatural, mystery ]
+categories: [ horror ]
 image: assets/images/2023-10-18-Reflections_of_the_Unseen.png
-
 ---
-Title: The Unseen
 
 In the quaint town of Bakersville, nestled between the rolling hills and the dense forest, stood a charming Victorian house. It was the home of the newlywed couple, John and Emily. The house, with its intricate woodwork and stained glass windows, was a sight to behold. However, the townsfolk whispered about the house's eerie past, of the previous owners who had disappeared mysteriously. John and Emily, being rational and modern, dismissed these tales as mere superstitions.
 
