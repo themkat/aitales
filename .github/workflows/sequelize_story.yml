@@ -16,7 +16,7 @@ jobs:
   sequelize-story:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/themkat/aitales_story_generator:7768a99948dbf51e7fd7b4ade57d25ce5dd0f382
+      image: ghcr.io/themkat/aitales_story_generator:adbd90e73712d43e28dcde435ec67c019b7d289a
       credentials:
         username: themkat
         password: ${{  secrets.GITHUB_TOKEN }}
