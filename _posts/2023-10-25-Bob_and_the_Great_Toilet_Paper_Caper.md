@@ -4,9 +4,7 @@ title:  "Bob and the Great Toilet Paper Caper"
 author: lily
 categories: [ comedy, adventure, crime ]
 image: assets/images/2023-10-25-Bob_and_the_Great_Toilet_Paper_Caper.png
-
 ---
-Title: The Unexpected Heist
 
 Once upon a time, in the quiet town of Sleepyville, there lived a man named Bob. Bob was a simple man with a simple life. He had a simple job at the local grocery store, a simple house with a simple garden, and a simple cat named Cat. Bob was content with his simple life. But one day, something unexpected happened that turned Bob's simple life upside down.
 
