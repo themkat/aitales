@@ -2,10 +2,11 @@
 layout: post
 title:  "The Mirror's Curse: A Tale of Sacrifice and Love"
 author: lily
-categories: [ gothic fiction, supernatural, romance ]
+categories: [ gothic fiction, horror, supernatural, romance ]
 image: assets/images/2023-10-27-The_Mirrors_Curse_A_Tale_of_Sacrifice_and_Love.png
 sequel_to: 2023-10-18-Reflections_of_the_Unseen.md
 ---
+
 A year had passed since Emily's disappearance, and John had become a recluse. He rarely left the Victorian house, his heart still aching for Emily. The townsfolk whispered about him, the man who had lost his wife to the cursed mirror. He was a living reminder of the house's eerie past.
 
 One day, as he was cleaning the attic, he found a small wooden box hidden behind a stack of old books. It was locked, but he managed to pry it open. Inside was a set of old letters, tied with a faded ribbon. The letters were addressed to the previous owners of the house, the ones who had disappeared before him and Emily.
