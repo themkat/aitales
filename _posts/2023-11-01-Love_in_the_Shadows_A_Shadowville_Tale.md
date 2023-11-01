@@ -2,11 +2,9 @@
 layout: post
 title:  "Love in the Shadows: A Shadowville Tale"
 author: lily
-categories: [ young adult, paranormal romance, gothic fiction ]
+categories: [ young adult, romance, gothic fiction ]
 image: assets/images/2023-11-01-Love_in_the_Shadows_A_Shadowville_Tale.png
-
 ---
-Title: The Love of Shadows
 
 In the small, secluded town of Shadowville, where the sun seemed to shy away, and the moon was the only source of light, lived a peculiar girl named Luna. Luna was not like the other girls. She was fascinated by the macabre, the mysterious, and the morbid. She loved the night, the moon, and the eerie silence that came with it. She was often seen wandering in the graveyard, talking to the spirits, and reading old, dusty books about the supernatural.
 
