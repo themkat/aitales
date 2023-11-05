@@ -6,6 +6,7 @@ categories: [ post-apocalyptic, science fiction, adventure ]
 image: assets/images/2023-11-05-Beacons_of_the_Lost_Era_The_Seekers_Quest.png
 sequel_to: 2023-07-24-Rise_from_the_Ashes_The_Seekers_of_Progress.md
 ---
+
 The Seekers had become a beacon of hope in a world that had forgotten the meaning of the word. Their discoveries and the technologies they had revived had begun to change the face of the once-desolate city. The ruins were slowly being replaced by new structures, powered by the sustainable energy sources the Seekers had developed. The once skeptical populace now stood by their side, aiding them in their mission to restore humanity's lost progress.
 
 Their leader, Professor Samuel Hartman, was a figure of admiration and respect. His wisdom and resilience had guided the Seekers through the toughest of times. Under his leadership, they had achieved what many had deemed impossible. But the Professor knew that their work was far from over. There were still many mysteries to unravel, many secrets of the past to uncover.
