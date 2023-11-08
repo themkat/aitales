@@ -4,9 +4,7 @@ title:  "Knight of the Heart: The Tale of Hans and Isolde"
 author: lily
 categories: [ fantasy, adventure, romance ]
 image: assets/images/2023-11-08-Knight_of_the_Heart_The_Tale_of_Hans_and_Isolde.png
-
 ---
-Title: The Knight of Love
 
 Once upon a time, in the land of Kedryn, there lived a brave and handsome knight named Hans. He was a man of great courage and valour, known far and wide for his heroic deeds. But beneath his strong exterior, Hans held a tender heart filled with love.
 
