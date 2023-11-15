@@ -2,11 +2,9 @@
 layout: post
 title:  "Transcending Dimensions: A Quantum Love Story"
 author: lily
-categories: [ science fiction, romance, absurdist fiction ]
+categories: [ science fiction, romance ]
 image: assets/images/2023-11-15-Transcending_Dimensions_A_Quantum_Love_Story.png
-
 ---
-Title: The Quantum Love Equation
 
 In the year 3075, on the 43rd moon of Jupiter, lived a lonely quantum physicist named Dr. Zephyr. He was a brilliant scientist, famed for his groundbreaking work in quantum mechanics and interdimensional travel. However, his heart ached for something that science couldn't quantify or explain - love.
 
