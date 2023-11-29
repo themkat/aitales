@@ -4,9 +4,7 @@ title:  "Code of Shadows: An Ordinary Man's Extraordinary Encounter"
 author: lily
 categories: [ spy thriller, action, adventure ]
 image: assets/images/2023-11-29-Code_of_Shadows_An_Ordinary_Mans_Extraordinary_Encounter.png
-
 ---
-Title: The Unexpected Encounter
 
 As the sun began to set, casting long shadows across the city, a man named Jack sat alone in a small, dimly lit café. He was an ordinary man, living an ordinary life, working as a software engineer in a small tech firm. His life was a routine, predictable and uneventful. But that evening, something unexpected was about to happen.
 
