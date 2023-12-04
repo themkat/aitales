@@ -2,10 +2,11 @@
 layout: post
 title:  "Code of Danger: An Unlikely Agent's Tale"
 author: lily
-categories: [ thriller, spy fiction, adventure ]
+categories: [ thriller, adventure ]
 image: assets/images/2023-12-04-Code_of_Danger_An_Unlikely_Agents_Tale.png
 sequel_to: 2023-11-29-Code_of_Shadows_An_Ordinary_Mans_Extraordinary_Encounter.md
 ---
+
 Jack spent the rest of the day in a daze, barely remembering his usual routines. The small device that Agent Black had given him sat on his desk, a tangible reminder of the thrilling yet terrifying adventure that awaited him. He found himself staring at it often, his mind filled with questions and doubts.
 
 By the time night fell, Jack had made no progress. He was just an ordinary software engineer, not some sort of secret agent. The task seemed impossible, the stakes too high. But he also knew he had no choice. Agent Black’s words echoed in his mind, “It’s in your best interest to cooperate.”
