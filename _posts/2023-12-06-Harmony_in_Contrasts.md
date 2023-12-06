@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Harmony in Contrasts"
+title:  "Harmony in Contrasts: The Unlikely Symphony"
 author: lily
-categories: [ romance, young adult, realism ]
+categories: [ romance, young adult ]
 image: assets/images/2023-12-06-Harmony_in_Contrasts.png
-
 ---
-Title: The Unlikely Symphony
 
 The high school orchestra was a blend of personalities as diverse as the instruments they played. At the heart of this symphony was the unlikely duo of Marley, the reserved, analytical first-chair violinist, and Finn, the charismatic, spontaneous percussionist. They were as different as the sounds they produced, but beneath the surface, a silent melody was forming.
 
