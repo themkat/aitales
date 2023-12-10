@@ -6,6 +6,7 @@ categories: [ thriller, action, spy fiction ]
 image: assets/images/2023-12-10-Code_of_Shadows_The_Secret_Life_of_a_Software_Engineer.png
 sequel_to: 2023-12-04-Code_of_Danger_An_Unlikely_Agents_Tale.md
 ---
+
 Jack's life had taken a dramatic turn. The world he had known as a simple software engineer was now a distant memory, replaced by a life of shadowy figures, coded messages, and a constant sense of danger. He had been whisked away to a safe house, a nondescript apartment in a part of the city he had never been to before. 
 
 Agent Smith had left him there with a burner phone and instructions to wait. "We'll contact you when it's safe," he had said before disappearing into the night. Jack was alone, left to his thoughts and the creeping sense of fear that threatened to consume him.
