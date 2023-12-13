@@ -4,9 +4,7 @@ title:  "Desert Bloom: A Tale of Love and Law in Lonesome Creek"
 author: lily
 categories: [ western, romance, drama ]
 image: assets/images/2023-12-13-Desert_Bloom_A_Tale_of_Love_and_Law_in_Lonesome_Creek.png
-
 ---
-Title: The Sheriff and the Outlaw's Daughter
 
 In the small, dusty town of Lonesome Creek, the iron-fisted rule of Sheriff Grady was as relentless as the scorching desert sun. His oppressive regime had the townsfolk living in fear, their spirits as parched as the cracked earth under their boots. But amidst this desolate landscape, a love story as unexpected as a desert bloom was about to unfold.
 
