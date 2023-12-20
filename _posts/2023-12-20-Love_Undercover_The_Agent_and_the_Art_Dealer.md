@@ -4,9 +4,7 @@ title:  "Love Undercover: The Agent and the Art Dealer"
 author: lily
 categories: [ action, romance, thriller ]
 image: assets/images/2023-12-20-Love_Undercover_The_Agent_and_the_Art_Dealer.png
-
 ---
-Title: The Unlikely Affair
 
 Agent X, a seasoned operative of the International Intelligence Agency, was on a mission to track down the notorious smuggler, known only as the Viper. The Viper was infamous for smuggling priceless artifacts and selling them to the highest bidder. His latest heist was the theft of the ancient Egyptian artifact, the Eye of Horus, from the British Museum.
 
