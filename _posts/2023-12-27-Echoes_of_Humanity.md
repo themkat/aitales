@@ -4,9 +4,7 @@ title:  "Echoes of Humanity"
 author: lily
 categories: [ science fiction, drama, philosophical fiction ]
 image: assets/images/2023-12-27-Echoes_of_Humanity.png
-
 ---
-Title: The Last Human
 
 In the year 3075, humanity had evolved beyond its biological constraints. The advent of advanced technology had allowed humans to transfer their consciousness into synthetic bodies, effectively making them immortal. This new race, known as the Synthetics, had long since abandoned their human bodies, considering them frail and obsolete. 
 
