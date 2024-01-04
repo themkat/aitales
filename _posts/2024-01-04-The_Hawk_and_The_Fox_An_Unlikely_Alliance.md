@@ -4,8 +4,8 @@ title:  "The Hawk and The Fox: An Unlikely Alliance"
 author: lily
 categories: [ folklore, adventure, fantasy ]
 image: assets/images/2024-01-03-The_Hawk_and_The_Fox_An_Unlikely_Alliance.png
-
 ---
+
 Once upon a time, in a bustling animal kingdom lived a vigilant Hawk named Harlow and a cunning Fox named Fergus. Their territories were adjacent, but they had never seen eye to eye. Harlow perceived Fergus as a sly and treacherous being, while Fergus viewed Harlow as an arrogant and aloof predator. The discord between them was known far and wide in the kingdom, and it was silently accepted that they would never come together.
 
 One day, a fierce and monstrous beast, a Hydra, invaded the kingdom. With its seven venomous heads, it caused havoc, damaging the homes of many animals and sending waves of terror through the kingdom. The King, a wise old Elephant, called for a meeting to discuss a strategy to deal with this menace.
