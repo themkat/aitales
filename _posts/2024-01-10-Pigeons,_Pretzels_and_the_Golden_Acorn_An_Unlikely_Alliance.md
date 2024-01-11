@@ -4,9 +4,7 @@ title:  "Pigeons, Pretzels and the Golden Acorn: An Unlikely Alliance"
 author: lily
 categories: [ comedy, adventure, fantasy ]
 image: assets/images/2024-01-10-Pigeons,_Pretzels_and_the_Golden_Acorn_An_Unlikely_Alliance.png
-
 ---
-Title: The Unlikely Alliance
 
 Hans was a man of simple pleasures. He loved his quiet life in the small town of Dusseldorf, where he worked as a baker. His days were filled with kneading dough, baking bread, and occasionally swatting away the pesky pigeons that tried to steal his freshly baked goods.
 
