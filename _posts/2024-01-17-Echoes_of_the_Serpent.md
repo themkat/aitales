@@ -4,9 +4,7 @@ title:  "Echoes of the Serpent"
 author: lily
 categories: [ horror, thriller, spy fiction ]
 image: assets/images/2024-01-17-Echoes_of_the_Serpent.png
-
 ---
-Title: The Smuggler's Echo 
 
 Agent Xavier Scorpion sat in the dimly lit corner of the underground tavern, nursing a glass of amber whiskey. His eyes, hidden behind dark shades, scanned the grimy room filled with the underworld’s most infamous criminals, smugglers, and assassins. His mission was to locate the elusive smuggler, known only as The Serpent, who was rumored to be trafficking a deadly bio-weapon.
 
